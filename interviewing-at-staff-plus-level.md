@@ -49,11 +49,11 @@ Interviews may involve build an app from scratch, fixing bugs, or home assessmen
 - **Golden Rule**: Do not lie. Be honest but confident ("sell yourself").
 
 ## Leadership & Culture
-[The Culture Code](https://danielcoyle.com/the-culture-code/) by Daniel Coyle (Building safety and purpose).
-[Crucial Conversations](https://cruciallearning.com/crucial-conversations-book/) by Kerry Patterson (Handling high-stakes dialogue).
-[The Culture Map](https://erinmeyer.com/books/the-culture-map/) by Erin Meyer (Navigating cultural differences).
-[Never Split the Difference](https://www.blackswanltd.com/never-split-the-difference) by Chris Voss (Negotiation).
-[Radical Candor](https://www.radicalcandor.com/the-book/) by Kim Scott (Caring personally while challenging directly).
+- [The Culture Code](https://danielcoyle.com/the-culture-code/) by Daniel Coyle (Building safety and purpose).
+- [Crucial Conversations](https://cruciallearning.com/crucial-conversations-book/) by Kerry Patterson (Handling high-stakes dialogue).
+- [The Culture Map](https://erinmeyer.com/books/the-culture-map/) by Erin Meyer (Navigating cultural differences).
+- [Never Split the Difference](https://www.blackswanltd.com/never-split-the-difference) by Chris Voss (Negotiation).
+- [Radical Candor](https://www.radicalcandor.com/the-book/) by Kim Scott (Caring personally while challenging directly).
 
 ## Onboarding
 - [The First 90 Days](https://www.google.com/search?q=https://hbr.org/books/watkins-first-90-days) by Michael Watkins
