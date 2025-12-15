@@ -1,5 +1,5 @@
 ---
-tags: interviewing
+tags: interviewing, job-search
 ---
 # Questions to Ask in a Job Interview
 ## About the Job

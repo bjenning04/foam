@@ -1,5 +1,5 @@
 ---
-tags: interviewing
+tags: interviewing, job-search
 ---
 # [Interviewing at Staff+ Level](https://medium.com/@manuelvicnt/interviewing-at-staff-level-7a31836285e6)
 ## Recommended Books for the Role
