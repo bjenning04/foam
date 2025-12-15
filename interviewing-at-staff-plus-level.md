@@ -1,4 +1,4 @@
-# Interviewing at Staff+ Level
+# [Interviewing at Staff+ Level](https://medium.com/@manuelvicnt/interviewing-at-staff-level-7a31836285e6)
 ## Are you ready to be a Staff+ engineer?
 - [The Staff Engineer's Path: A Guide for Individual Contributors Navigating Growth and Change](https://www.goodreads.com/book/show/61058107-the-staff-engineer-s-path) by Tanya Reilly
 - [Staff Engineer: Leadership Beyond the Management Track](https://www.goodreads.com/book/show/56481725-staff-engineer) by Will Larson
