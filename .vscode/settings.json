@@ -21,5 +21,8 @@
   "markdown.styles": [
     ".vscode/custom-tag-style.css"
   ],
-  "gitdoc.enabled": true
+  "gitdoc.enabled": true,
+  "foam.files.exclude": [
+    "/docs/**/*"
+  ]
 }
