@@ -4,6 +4,11 @@
 - [Staff Engineer: Leadership Beyond the Management Track](https://www.goodreads.com/book/show/56481725-staff-engineer) by Will Larson
 
 ## Preparing the DS/A Interview
-### Improving your coding skills
 ### Practicing
+- [Cracking the Coding Interview: 150 Programming Questions and Solutions](https://www.goodreads.com/book/show/12544648-cracking-the-coding-interview) by Gayle L. McDowelll
+- [LeetCode](https://leetcode.com/)
+- [Grind 75 questions](https://www.techinterviewhandbook.org/grind75/)
+- [Pramp](https://www.pramp.com/#/)
 
+### Structure your way to solve the problem
+- 
