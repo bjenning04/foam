@@ -11,4 +11,5 @@
 - [Pramp](https://www.pramp.com/#/)
 
 ### Structure your way to solve the problem
-- 
+- [On Interviewing](https://adambennett.dev/2021/11/on-interviewing/) by Adam Bennett
+- [Common strategies for DS/A interview problems](https://github.com/ditn/interviewprep/blob/main/Common%20Strategies.md)
