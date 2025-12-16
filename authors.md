@@ -14,7 +14,7 @@
 - Europe: A Natural History
 
 ## Richard Feynman
-
+- The Feynman Lectures on Physics
 
 ## Alan Guth
 - The Inflationary Universe
