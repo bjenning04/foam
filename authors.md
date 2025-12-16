@@ -10,7 +10,12 @@
 - Trilobite: Eyewitness to Evolution
 
 ## Tim Flannery
+- The Weather Makers: How Man Is Changing the Climate and What It Means for Life on Earth
+- Europe: A Natural History
+
 ## Richard Feynman
+
+
 ## Alan Guth
 - The Inflationary Universe
 
