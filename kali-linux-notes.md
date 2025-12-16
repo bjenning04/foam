@@ -32,17 +32,17 @@ tags: cybersecurity, linux, kali-linux
 ### Directories
 - /bin - Commands/binary files that have to be available when the system is booted in single-user mode.
 - /boot - Where boot files are stored, including the configuration of the boot loader, the kernel, and any initial ramdisk files needed to boot the kernel.
-- /dev - A pseudofilesystem that contains entries for hardware devices for programs to access.
+- /dev - A pseudo-filesystem that contains entries for hardware devices for programs to access.
 - /etc - Configuration files related to the operating system and system services.
 - /home - The directory containing the user's home directories.
 - /lib - Library files that contain shared code and functions that any program can use.
 - /opt - Where optional, third-party software is located.
-- /proc - A pseudiofilesystem that has directories containing files related to running processes, including memory maps, the command line used to run the program, and other essential system information related to the program.
+- /proc - A pseudo-filesystem that has directories containing files related to running processes, including memory maps, the command line used to run the program, and other essential system information related to the program.
 - /root - The home directory of the root user.
 - /sbin - System binaries that also need to be available in single-user mode.
 - /tmp - Where temporary files are stored.
 - /usr - Read-only user data (includes bin, doc, lib, sbin, and share subdirectories).
-- /var - Variable data, including state information about running processes, logfiles, runtime data, and other temporary files. All these files are expected to change in size or existence during the running of the system.
+- /var - Variable data, including state information about running processes, log files, runtime data, and other temporary files. All these files are expected to change in size or existence during the running of the system.
 
 ## Network Security Testing Basics
 ### Using hping3 for flooding
