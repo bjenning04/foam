@@ -6,6 +6,10 @@
 - Seeing in the Dark: How Amateur Astronomers Are Discovering the Wonders of the Universe
 
 ## Richard Fortey
+- Life: A Natural History of the First Four Billion Years of Life on Earth
+- Trilobite: Eyewitness to Evolution
+- Seeing Further: Id
+
 ## Tim Flannery
 ## Richard Feynman
 ## Alan Guth
