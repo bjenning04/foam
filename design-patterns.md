@@ -1,10 +1,12 @@
----
-config:
-  class:
-    hideEmptyMembersBox: true
----
 # Mermaid Test
 ```mermaid
+%%{
+  init: {
+    "class": {
+      "hideEmptyMembersBox": true
+    }
+  }
+}%%
 classDiagram
     class Strategy {
         <<interface>>
