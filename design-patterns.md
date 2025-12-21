@@ -10,9 +10,8 @@
 classDiagram
     Context o--> Strategy
     Context <-- Client
-    Client ..> ConcreteStrategies
-    Strategy <|.. ConcreteStrategy1
-    Strategy <|.. ConcreteStrategy2
+    Client ..> ConcreteStrategy
+    Strategy <|.. ConcreteStrategy
     class Context {
         - strategy
         + setStrategy(strategy)
@@ -22,12 +21,7 @@ classDiagram
         <<interface>>
         + execute(data)
     }
-    package "ConcreteStrategies" {
-        class ConcreteStrategy1 {
-            + execute(data)
-        }
-        class ConcreteStrategy2 {
-            + execute(data)
-        }
+    class ConcreteStrategy {
+        + execute(data)
     }
 ```
