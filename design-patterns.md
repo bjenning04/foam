@@ -9,7 +9,9 @@
 }%%
 classDiagram
     Context o--> Strategy
-    Strategy <|-- ConcreteStrategy
+    Context <-- Client
+    Client ..> ConcreteStrategy
+    Strategy <|.. ConcreteStrategy
     class Context {
         - strategy
         + setStrategy(strategy)
