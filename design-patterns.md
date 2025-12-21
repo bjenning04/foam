@@ -1,2 +1,2 @@
 # Mermaid Test
-[test](strategy.excalidraw)
+![test](./strategy.excalidraw.png)
