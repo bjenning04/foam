@@ -22,7 +22,7 @@ classDiagram
         <<interface>>
         + execute(data)
     }
-    namespace ConcreteStrategies {
+    package "ConcreteStrategies" {
         class ConcreteStrategy1 {
             + execute(data)
         }
