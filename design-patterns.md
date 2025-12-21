@@ -8,6 +8,8 @@
   }
 }%%
 classDiagram
+    Context o--> Strategy
+    Strategy <|-- ConcreteStrategy
     class Context {
         - strategy
         + setStrategy(strategy)
