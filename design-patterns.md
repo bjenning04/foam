@@ -1,2 +1,2 @@
 # Mermaid Test
-
+[[strategy.excalidraw]]
