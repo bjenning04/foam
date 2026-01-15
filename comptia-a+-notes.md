@@ -78,4 +78,4 @@
 #### DHCP (Dynamic Host Configuration Protocol)
 - Gives out IP addresses to computers on the network
 - Ports and flow:
-![strategy pattern](./strategy.excalidraw.png)
+![DHCP sequence diagram](./dhcp-sequence.excalidraw.png)
