@@ -3,7 +3,7 @@
 ### Mobile Device Networking
 #### Mobile E-mail
 | Protocol | Original Port | Secure Port |
-| -------- | ------------- | ----------- |
+| --- | --- | --- |
 | SMTP | 25 | 465 or 587 |
 | POP3 | 110 | 995 |
 | IMAP | 143 | 993 |
