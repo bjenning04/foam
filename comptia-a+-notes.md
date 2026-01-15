@@ -74,3 +74,8 @@
 | FTPS | File Transfer Protocol Secure | 989/990 |
 | SSH | Secure Shell | 22 |
 | Telnet | Telecommunications Network | 23 |
+
+#### DHCP (Dynamic Host Configuration Protocol)
+- Gives out IP addresses to computers on the network
+- Ports and flow:
+
