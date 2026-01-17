@@ -201,13 +201,88 @@ SMB, CIFS, AFP, and SNMP
 | 802.11ax (Wi-Fi 6/6E) | 9.6 Gbps | 6, 5, and 2.4 GHz |
 
 #### Wireless Channels
+| 2.4 GHz | Frequency ranges (MHz) | 5 GHz | Frequency ranges (MHz) |
+| --- | --- | --- | --- |
+| 1-5 | 2412, 2417, 2422, 2427, 2432 | 36, 40, 44, 48 | 5180-5240 |
+| 6-10 | 2437, 2442, 2447, 2452, 2457 | 52, 56, 60, 64, 100, 104, 108, 112, 116 | 5260-5580 |
+| 11 | 2462 | 132, 136, 140, 144 | 5660-5720 |
+| | | 149, 153, 157, 161, 165 | 5745-5825 |
+
 #### Z-Wave & Zigbee
+- Zigbee
+	- IEEE 802.15-4
+	- 2.4 GHz and 915 MHz
+- Z-Wave
+	- Z-Wave Alliance
+	- 800 and 900 MHz
+- Both use 128-bit encryption
+
 #### Cellular Internet Protocols
+- Began with 2G
+	- GSM (Global System for Mobile Communications)
+	- GPRS (General Packet Radio Service)
+	- CDMA (Code Division Multiple Access)
+- Evolved to 3G with Enhanced Data rates for GSM Evolution (EDGE)
+- Evolved to 4G and LTE if the mobile device complies with IMT-Advanced
+- Evolved to 5G at 20 Gbps, standardized as ITU IMT-2020
+- PRL(Preferred Roaming List) updates
+	- Used with CDMA technology
+	- Database that contains information about the provider's radio bands, sub-bands, service provider IDs, etc.
+- GSM updates are known as "baseband"
+- IMEI (International Mobile Station Equipment Identity) vs. IMSI (International Mobile Subscriber Identity)
+	- IMEI identifies the device
+	- IMSI identifies the user
+	- For GSM networks, these items are loaded via SIM
+	- For CDMA networks, these are either loaded directly into phone, or via RUIM (Removable User Identity Module)
 
 ### Networked Hosts
 #### Authentication
-#### Syslog
-#### Internet Appliances
-#### Load Balancers and More Network Hosts
-#### Embedded Systems and Legacy Devices
+- LDAP (Lightweight Directory Access Protocol)
+	- Vendor-neutral, but common in Windows domains
+	- Standardized by the IETF RFC 4511
+- Kerberos
+	- Computers prove their identity using tickets and symmetric encryption
 
+#### Syslog
+- Used to output messages from network devices to a server.
+- Normally uses port 514 over UDP.
+
+#### Internet Appliances
+- Firewall
+	- Protects a network (or individual computer) by closing ports, stopping unwanted intrusions.
+- IDS and IPS
+	- Systems that either detect or prevent unauthorized access
+	- IDS (Intrusion Detection System)
+	- IPS (Intrusion Prevention System)
+	- If it is running on a specific server, it is known as a HIDS (Host-based Intrusion Detection System) or HIPS (Host-based Intrusion Prevention System)
+	- If it is running as part of the network, it is known as a NIDS (Network Intrusion Detection System) or NIPS (Network Intrusion Prevention System)
+- UTM (Unified Threat Management)
+	- Device that combines multiple security features of individual devices.
+- Endpoint Management
+	- A policy-based approach to network security.
+	- PCs, laptops, and mobile devices must meet specific requirements to access network resources.
+- Endpoint Management Server
+	- Servers that centrally control the security management of endpoints.
+- Endpoint Protection Platform
+	- A platform that is installed to client computers.
+	- Includes: anti-virus, anti-spyware, firewall, anti-ransomware, etc.
+
+#### Load Balancers and More Network Hosts
+- Load balancers
+	- Network
+	- Application
+		- Nginx
+		- HAProxy
+	- Spam Gateway
+	- Bastion Host
+	- RADIUS (Remote Authentication Dial In User Service) server
+		- Part of AAA (Authentication, Authorization, Accounting) protocol
+			- Authentication: establishing a person's identity and confirming it
+			- Authorization: giving a user access to certain data
+			- Accounting: tracking of data, computer usage, network resources, etc.
+
+#### Embedded Systems and Legacy Devices
+- HVAC (Heating, Ventilation, and Air Conditioning
+- SCADA (Supervisory Control and Data Acquisition System)
+- Legacy devices
+	- PC/104 computers (25 to 33 MHz), DAQ controllers, older thin clients.
