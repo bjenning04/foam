@@ -176,3 +176,10 @@ SMB, CIFS, AFP, and SNMP
 #### Z-Wave & Zigbee
 #### Cellular Internet Protocols
 
+### Networked Hosts
+#### Authentication
+#### Syslog
+#### Internet Appliances
+#### Load Balancers and More Network Hosts
+#### Embedded Systems and Legacy Devices
+
