@@ -1,3 +1,6 @@
+---
+tags: diet, abs-diet, health
+---
 # Abs Diet Super Food Oatmeal
 ## Ingredients
 - 3/4 cup oatmeal
