@@ -11,6 +11,7 @@ tags: design-patterns, software-development
 - Prototype
 - Singleton
 
+
 ## Structural
 - Adapter
 - Bridge
