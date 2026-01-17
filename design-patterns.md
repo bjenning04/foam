@@ -3,6 +3,7 @@
 - Abstract Factory
 - Builder
 - Factory Method
+- Lazy Initialization
 - Object Pool
 - Prototype
 - Singleton
