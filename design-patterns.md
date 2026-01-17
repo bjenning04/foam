@@ -1,10 +1,11 @@
 # Design Patterns
 ## Creational
-- Factory
 - Abstract Factory
 - Builder
-- Singleton
+- Factory Method
+- Object Pool
 - Prototype
+- Singleton
 
 ## Structural
 - Adapter
