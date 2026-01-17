@@ -79,3 +79,12 @@
 - Gives out IP addresses to computers on the network
 - Ports and flow:
 ![DHCP sequence diagram](./dhcp-sequence.excalidraw.png)
+
+#### DNS (Domain Name System)
+- Accepts requests on port 53
+
+#### LDAP & RDP
+| Protocol | Full Name | Port | Secure Port | Notes |
+| --- | --- | --- | --- | --- |
+| LDAP | Lightweight Directory Access Protocol | 389 | 636 | Used to access and distribute directories of information |
+| RDP | Remote Desktop Protocol | 3389 | 443 and others | Used for full or limited control of a remote system |
