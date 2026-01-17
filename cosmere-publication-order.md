@@ -31,4 +31,5 @@ tag: books, brandon-sanderson, cosmere
 - [x] Tress of the Emerald Sea
 - [x] Yumi and the Nightmare Painter
 - [x] The Sunlit Man
-- [ ] Knights of Wind and Truth
+- [ ] Wind and Truth
+- [ ] Isles of the Emberdark
