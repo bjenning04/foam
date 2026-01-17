@@ -1,0 +1,34 @@
+---
+tag: books, brandon-sanderson, cosmere
+---
+# Cosmere Publication Order
+- [x] Elantris
+- [x] The Hope of Elantris
+- [x] Mistborn: The Final Empire
+- [x] The Well of Ascension
+- [x] The Hero of Ages
+- [x] Warbreaker
+- [x] The Way of Kings
+- [x] The Alloy of Law
+- [x] The Eleventh Metal
+- [x] The Emperor's Soul
+- [x] Shadows for Silence
+- [x] Words of Radiance
+- [x] Sixth of the Dusk
+- [x] Allomancer Jak
+- [x] Shadows of Self
+- [x] The Bands of Mourning
+- [x] Mistborn: Secret History
+- [x] White Sand Volume 1
+- [x] Arcanum Unbounded essays
+- [x] Edgedancer
+- [x] Oathbringer
+- [ ] White Sand Volume 2
+- [ ] White Sand Volume 3
+- [x] Dawnshard
+- [x] Rhythm of War
+- [x] The Lost Metal
+- [x] Tress of the Emerald Sea
+- [x] Yumi and the Nightmare Painter
+- [x] The Sunlit Man
+- [ ] Knights of Wind and Truth
