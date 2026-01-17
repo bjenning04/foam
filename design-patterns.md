@@ -7,23 +7,25 @@
 - Prototype
 
 ## Structural
-- Decorator
 - Adapter
-- Composite
-- Facade
-- Proxy
-- Flyweight
 - Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Private Class Data
+- Proxy
 
 ## Behavioral
-- Strategy
-- State
-- Command
-- Template
-- Observer
-- Iterator
-- Visitor
 - Chain of Responsibility
+- Command
 - Interpreter
+- Iterator
 - Mediator
 - Memento
+- Null Object
+- Observer
+- State
+- Strategy
+- Template Method
+- Visitor
