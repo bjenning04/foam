@@ -31,3 +31,6 @@
 - Strategy
 - Template Method
 - Visitor
+
+## Other
+https://java-design-patterns.com/patterns/
