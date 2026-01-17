@@ -1,5 +1,5 @@
 ---
-tags: diet, abs-diet, health
+tags: diet, abs-diet, health, recipe
 ---
 # Abs Diet Super Food Oatmeal
 ## Ingredients
