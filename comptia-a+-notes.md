@@ -167,11 +167,39 @@ SMB, CIFS, AFP, and SNMP
 
 ### SOHO Network Configurations
 #### Encryption Types
+| Wireless Protocol | Description | Encryption Level |
+| --- | --- | --- |
+| WEP | Wired Equivalent Privacy (deprecated) | 64-bit |
+| WPA | Wi-Fi Protected Access | 128-bit |
+| WPA2 | 2nd version (recommended) | 256-bit |
+| TKIP | Temporal Key Integrity Protocol | 128-bit |
+| CCMP | Counter Mode with Cypher Block Message Authentication Code Protocol | 128-bit |
+| AES | Advanced Encryption Standard | 128, 192, and 256-bit |
+
+- WPS (Wi-Fi Protected Setup)
+	- Allows clients to connect to network using an 8-digit code
+	- Insecure and should not be used
+
 #### NAT and Port Forwarding
+- Network Address Translation (NAT) is the process of modifying IP addresses that cross a router.
+- Port forwarding is when a router forwards a public request (IP and port) to a private IP and port on the LAN.
+
 #### More SOHO Router Configurations
+- MAC filtering is the screening of computers by MAC address.
+- QoS is a feature that prioritizes network connections for computers or applications.
+- UPnP is a group of protocols that enables easy connectivity of computers and devices.
 
 ### Wireless Networking Protocols
 #### Wireless Standards
+| 802.11 Version | Maximum Data Rate | Frequency |
+| --- | --- | --- |
+| 802.11a | 54 Mbps | 5 GHz |
+| 802.11b | 11 Mbps | 2.4 GHz |
+| 802.11g | 54 Mbps | 2.4 GHz |
+| 802.11n (Wi-Fi 4) | 600 Mbps | 5 and/or 2.4 GHz |
+| 802.11ac (Wi-Fi 5) | 3.5 Gbps | 5 GHz |
+| 802.11ax (Wi-Fi 6/6E) | 9.6 Gbps | 6, 5, and 2.4 GHz |
+
 #### Wireless Channels
 #### Z-Wave & Zigbee
 #### Cellular Internet Protocols
