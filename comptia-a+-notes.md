@@ -164,3 +164,15 @@ SMB, CIFS, AFP, and SNMP
 		- Packets can be manipulated by the control plane
 	- Control plane
 - A common SDN protocol is OpenFlow
+
+### SOHO Network Configurations
+#### Encryption Types
+#### NAT and Port Forwarding
+#### More SOHO Router Configurations
+
+### Wireless Networking Protocols
+#### Wireless Standards
+#### Wireless Channels
+#### Z-Wave & Zigbee
+#### Cellular Internet Protocols
+
