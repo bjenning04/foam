@@ -2,4 +2,4 @@
 tags: design-patterns, software-development, abstract-factory-pattern, creational-patterns
 ---
 # Abstract Factory Pattern
-![decorator pattern](./decorator-pattern.excalidraw.png)
+![abstract factory pattern](./abstract-factory-pattern.excalidraw.png)
