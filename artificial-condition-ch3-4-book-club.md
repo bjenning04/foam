@@ -58,17 +58,32 @@ tags: book-club, artificial-condition, martha-wells
 - "There were fifty-seven fatalities. The cause is listed as 'equipment failure.' SecUnits were categorized on inventory as equipment... I told ART I knew how to fucking read search results."
 
 ### The Mirror
-- Murderbot heals and cleans up. It notices the changes: shorter limbs, body hair, thicker eyebrows. It smells like a "clean human." It tests its weapons on the treadmill to ensure it can still fight. Finally, it looks in the mirror and realizes a paradox: looking more human doesn't make it feel safer. It actually removes its favorite defense mechanism.
+- Murderbot heals and cleans up. It notices the changes: shorter limbs, body hair, thicker eyebrows.
+- It smells like a "clean human."
+- It tests its weapons on the treadmill to ensure it can still fight.
+- Finally, it looks in the mirror and realizes a paradox: looking more human doesn't make it feel safer. It actually removes its favorite defense mechanism.
 - "I told myself I still looked like a SecUnit without armor, hopelessly exposed, but the truth was I did look more human. And now I knew why I hadn’t wanted to do this. It would make it harder for me to pretend not to be a person."
 
 ### Eden
-- They arrive at the transit ring. Murderbot needs a travel voucher to get to the surface. ART finds a job listing for a security consultant and pushes Murderbot to take it. Murderbot creates an alias, "Eden" (named after a character in Sanctuary Moon), and goes to meet the clients. To handle the anxiety of face-to-face interaction, Murderbot hacks the security cameras. It talks to the clients while watching the conversation on a screen, effectively turning reality into a TV show it can endure.
+- They arrive at the transit ring.
+- Murderbot needs a travel voucher to get to the surface.
+- ART finds a job listing for a security consultant and pushes Murderbot to take it.
+- Murderbot creates an alias, "Eden" (named after a character in Sanctuary Moon), and goes to meet the clients.
+- To handle the anxiety of face-to-face interaction, Murderbot hacks the security cameras.
+- It talks to the clients while watching the conversation on a screen, effectively turning reality into a TV show it can endure.
 - "I picked up the feed from the security camera so I could watch myself... it was a completely false sensation of distance from the situation, but I needed it... I’m terrible at estimating human ages because it’s not one of the few things I care about. Also most of my experience is with the humans on the entertainment feed, and they aren’t anything like the ones you see in reality."
 
 ### Soft Clients
-- Murderbot meets the clients: Rami, Tapan, and Maro. They are young, naive researchers. They represent a "collective" that was ripped off by a company called Tlacey Excavations. Tlacey stole their research and fired them. Now, Tlacey wants to meet in person to "return the files." It is an obvious trap. The humans are terrified, arguing among themselves, and clearly out of their depth.
+- Murderbot meets the clients: Rami, Tapan, and Maro. They are young, naive researchers.
+- They represent a "collective" that was ripped off by a company called Tlacey Excavations.
+- Tlacey stole their research and fired them.
+- Now, Tlacey wants to meet in person to "return the files." It is an obvious trap.
+- The humans are terrified, arguing among themselves, and clearly out of their depth.
 - "They all stared at me worriedly. In the security camera view, from that angle, it was obvious how small they were. They looked so soft, with all the fluffy multicolored hair. And nervous, but not of me."
 
 ### Lowball Offer
-- The researchers are broke. They ask if they can afford "Eden." Murderbot asks what they were paid before: 200 credits. It agrees to take the job for that pitiful amount because it needs the employment voucher to get to the surface. When the humans ask why he’s so cheap, Murderbot nearly snaps that they "don't have the right to ask," but catches itself. It realizes that as a free entity (or at least, a fake human consultant), it has to answer questions now.
+- The researchers are broke. They ask if they can afford "Eden."
+- Murderbot asks what they were paid before: 200 credits.
+- It agrees to take the job for that pitiful amount because it needs the employment voucher to get to the surface.
+- When the humans ask why he’s so cheap, Murderbot nearly snaps that they "don't have the right to ask," but catches itself. It realizes that as a free entity (or at least, a fake human consultant), it has to answer questions now.
 - "'Why?' Tapan asked... 'I mean, I know we don’t have a right to ask, but…' Don’t have a right to ask. That wasn’t something that had ever applied to me, before PreservationAux."
