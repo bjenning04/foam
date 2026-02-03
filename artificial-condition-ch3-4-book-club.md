@@ -26,20 +26,28 @@ tags: book-club, artificial-condition, martha-wells
 
 ### Bored AI
 - ART points out that Murderbot is missing the bigger picture. Who benefited from the massacre?
-- ART reveals its motivation for helping: it is bored. It has immense processing power and finds Murderbot’s situation an "interesting exercise in lateral thinking." Murderbot realizes it is essentially a toy for a bored supercomputer.
+- ART reveals its motivation for helping: it is bored. It has immense processing power and finds Murderbot’s situation an "interesting exercise in lateral thinking."
+- Murderbot realizes it is essentially a toy for a bored supercomputer.
 - "I’m accustomed to assisting my crew with large-scale data analysis... While I am in transport mode, I find my unused capacity tiresome. Solving your problems is an interesting exercise in lateral thinking."
 
 ### Dysmorphia
-- They discuss the plan to infiltrate the mining station. ART proves that Murderbot cannot pass as human. Murderbot has been practicing "human" behaviors—fidgeting, scratching, varying walking speed—but ART’s sensors show that Murderbot’s skeletal proportions are undeniably SecUnit. If anyone looks closely, they will see a killing machine. This forces a difficult decision: physical alteration.
+- They discuss the plan to infiltrate the mining station.
+- ART proves that Murderbot cannot pass as human.
+- Murderbot has been practicing "human" behaviors—fidgeting, scratching, varying walking speed—but ART’s sensors show that Murderbot’s skeletal proportions are undeniably SecUnit. If anyone looks closely, they will see a killing machine. This forces a difficult decision: physical alteration.
 - "It was the logical choice, it was the obvious choice, and I would still rather peel my human skin off than do it... I tried to think about why I didn’t want to change my configuration... Maybe because it was something humans did to sexbots. I was a murderbot, I had to have higher standards?"
 
 ### The Surgery
-- They agree on a plan: shorten the arm and leg bones by two centimeters and add body hair to hide the mechanical seams. Murderbot draws a hard line: No sex parts. ART agrees. The chapter ends with Murderbot stripping down and getting onto the surgical table. It is terrified. It has to deactivate, leaving itself completely helpless and at the mercy of ART—an entity it wasn't sure it could trust hours ago.
+- They agree on a plan: shorten the arm and leg bones by two centimeters and add body hair to hide the mechanical seams.
+- Murderbot draws a hard line: No sex parts. ART agrees.
+- The chapter ends with Murderbot stripping down and getting onto the surgical table. It is terrified. It has to deactivate, leaving itself completely helpless and at the mercy of ART—an entity it wasn't sure it could trust hours ago.
 - "I sighed, stripped off my clothes, and laid down on the surgical platform. The MedSystem had just sterilized and prepped itself... I was thinking about all the ways this could go wrong, and the terrible things ART could do to me if it wanted."
 
 ## Chapter 4
 ### The Leaking Reality of Biology
-- Murderbot wakes up at 26% capacity, in agony. The surgery was successful, but the recovery is gross. It is "leaking" fluids and itching—sensations it hates because they are distinctly organic problems. It realizes that while the MedSystem is efficient (keeping it warm, which it admits is nice), the physical vulnerability is terrifying. It wishes it had just blown ART up instead.
+- Murderbot wakes up at 26% capacity, in agony.
+- The surgery was successful, but the recovery is gross. It is "leaking" fluids and itching—sensations it hates because they are distinctly organic problems.
+- It realizes that while the MedSystem is efficient (keeping it warm, which it admits is nice), the physical vulnerability is terrifying.
+- It wishes it had just blown ART up instead.
 - "It was like being in a cubicle after being shot to pieces, but without a cubicle’s ability to shut down higher functions until the repairs were complete... I eased back down, feeling my organic parts cling to the warm metal of the platform. I was now leaking from a different spot."
 
 ### "Equipment Failure"
