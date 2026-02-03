@@ -25,7 +25,8 @@ tags: book-club, artificial-condition, martha-wells
 - "I needed to know if the incident occurred due to a catastrophic failure of my governor module. That’s what I think happened. But I need to know for sure... I need to know if I hacked my governor module in order to cause the incident."
 
 ### Bored AI
-- ART switches from "annoying friend" to "cold calculator." It points out that Murderbot is missing the bigger picture. ART suggests they need to ask: Who benefited from the massacre? ART reveals its motivation for helping: it is bored. It has immense processing power and finds Murderbot’s situation an "interesting exercise in lateral thinking." Murderbot realizes it is essentially a toy for a bored supercomputer.
+- ART points out that Murderbot is missing the bigger picture. Who benefited from the massacre?
+- ART reveals its motivation for helping: it is bored. It has immense processing power and finds Murderbot’s situation an "interesting exercise in lateral thinking." Murderbot realizes it is essentially a toy for a bored supercomputer.
 - "I’m accustomed to assisting my crew with large-scale data analysis... While I am in transport mode, I find my unused capacity tiresome. Solving your problems is an interesting exercise in lateral thinking."
 
 ### Dysmorphia
