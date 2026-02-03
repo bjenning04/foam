@@ -51,7 +51,10 @@ tags: book-club, artificial-condition, martha-wells
 - "It was like being in a cubicle after being shot to pieces, but without a cubicle’s ability to shut down higher functions until the repairs were complete... I eased back down, feeling my organic parts cling to the warm metal of the platform. I was now leaking from a different spot."
 
 ### "Equipment Failure"
-- While Murderbot recovers, ART analyzes the data regarding the RaviHyral incident. It confirms 57 fatalities occurred at a place called "Ganaka Pit." The official record lists the cause as "equipment failure." This is a grim double entendre: the mining equipment failed, but SecUnits are also classified as equipment. The company erased the "Ganaka Pit" from current maps entirely to cover it up.
+- While Murderbot recovers, ART analyzes the data regarding the RaviHyral incident.
+- It confirms 57 fatalities occurred at a place called "Ganaka Pit." The official record lists the cause as "equipment failure."
+- The mining equipment failed, but SecUnits are also classified as equipment.
+- The company erased the "Ganaka Pit" from current maps entirely to cover it up.
 - "There were fifty-seven fatalities. The cause is listed as 'equipment failure.' SecUnits were categorized on inventory as equipment... I told ART I knew how to fucking read search results."
 
 ### The Mirror
