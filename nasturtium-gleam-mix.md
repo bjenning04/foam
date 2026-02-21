@@ -9,7 +9,7 @@ tags: gardening
 - **Exposure**: Full sun to part shade
 - **Bloom Period**: Late spring to frost
 - **Plant Dimensions**: 5'-6' vines
-- **Variety Info**: 2"-2.5" blossoms in shades of scarlet, gold, orange, and yellow
+- **Variety Info**: 2"-2 1/2" blossoms in shades of scarlet, gold, orange, and yellow
 - **Attributes**: Attracts Pollinators, Deer Resistant, Drought Tolerant, Edible Flower, Rabbit Resistant, Frost Sensitive
 
 ## Variety Info
