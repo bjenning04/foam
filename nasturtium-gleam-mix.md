@@ -22,3 +22,8 @@ tags: gardening
 - **Seed Depth**: &frac12;"-1"
 - **Seed Spacing**: A group of 3 seeds every 8"-12"
 - **Thinning**: When 2" tall, thin to 1 every 8"-12"
+
+## Learn More
+
+- [Enjoying Edible Flowers](https://www.botanicalinterests.com/community/blog/edible-flower-article/)
+- [Nasturium: Sow and Grow Guide](https://www.botanicalinterests.com/community/blog/nasturtium-sow-and-grow-guide/)
