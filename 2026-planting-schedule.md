@@ -5,7 +5,7 @@
 displayMode: compact
 ---
 gantt
-    title A Gantt Diagram
+    title Planting & Harvesting Schedule
     dateFormat YYYY-MM-DD
     axisFormat %m-%d
     Last Frost: vert, v1, 2026-04-02,
@@ -39,27 +39,27 @@ gantt
     Section Allstar Gourmet Lettuce
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 28d
-    Section Cherokee Lettuce
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 48d
     Section Dragoon Lettuce
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 43d
+    Section Cherokee Lettuce
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 48d
     Section Muir Lettuce
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 50d
-    Section Bolero Carrots
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 75d
-    Section Purple Haze Carrots
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 73d
     Section White Satin Carrots
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 68d
+    Section Purple Haze Carrots
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 73d
     Section Yellowstone Carrots
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 73d
+    Section Bolero Carrots
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 75d
     Section Resina Calendula
         Sow: 2026-03-05, 14d
     Section Cilantro
