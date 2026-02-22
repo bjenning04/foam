@@ -41,6 +41,12 @@ gantt
     Section Purple Haze Carrots
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 73d
+    Section White Satin Carrots
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 68d
+    Section Yellowstone Carrots
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 73d
     Section Cilantro
         Sow: 2026-03-19, 7d
     Section Dill
