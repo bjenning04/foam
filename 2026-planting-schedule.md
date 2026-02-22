@@ -15,8 +15,12 @@ gantt
     Section French Breakfast Radishes
         Sow: 2026-02-19, 14d
         Grow: 2026-03-05, 21d
-    Section Peas
+    Section Oregon Sugar Pod II Peas
         Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 60d
+    Section Sugar Ann Peas
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 51d
     Section Bloomsdale Spinach
         Sow: 2026-02-19, 14d
         Grow: 2026-03-05, 30d
