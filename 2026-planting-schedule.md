@@ -35,8 +35,12 @@ gantt
         Grow: 2026-03-19, 50d
     Section Calendula
         Sow: 2026-03-05, 14d
-    Section Carrots
+    Section Bolero Carrots
         Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 75d
+    Section Purple Haze Carrots
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 73d
     Section Cilantro
         Sow: 2026-03-19, 7d
     Section Dill
