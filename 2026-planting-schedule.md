@@ -9,8 +9,9 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %m-%d
     Last Frost: vert, v1, 2026-04-02,
-    Section Radishes
+    Section Easter Egg II Radishes
         Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 30d
     Section Peas
         Sow: 2026-02-19, 14d
     Section Spinach
