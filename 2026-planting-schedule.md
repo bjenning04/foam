@@ -1,10 +1,14 @@
 # Planting Schedule
 
 ```mermaid
+---
+displayMode: compact
+---
 gantt
     title A Gantt Diagram
     dateFormat YYYY-MM-DD
     axisFormat %m-%d
+    Last Frost: vert, v1, 2026-04-02,
     Radishes: 2026-02-19, 14d
     Shelling Peas: 2026-02-19, 14d
     Snap Peas: 2026-02-19, 14d
@@ -19,5 +23,4 @@ gantt
     Alyssum: 2026-03-19, 7d
     Nasturtium: 2026-04-12, 7d
     Yarrow: 2026-04-16, 14d
-    Last Frost: vert, v1, 2026-04-02,
 ```
