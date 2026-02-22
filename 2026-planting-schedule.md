@@ -15,8 +15,12 @@ gantt
         Sow: 2026-02-19, 14d
     Section Spinach
         Sow: 2026-02-19, 14d
-    Section Bok Choy
+    Section Black Summer Bok Choy
         Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 45d
+    Section Bopak Bok Choy
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 50d
     Section Calendula
         Sow: 2026-03-05, 14d
     Section Carrots
