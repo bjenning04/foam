@@ -17,8 +17,12 @@ gantt
         Grow: 2026-03-05, 21d
     Section Peas
         Sow: 2026-02-19, 14d
-    Section Spinach
+    Section Bloomsdale Spinach
         Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 30d
+    Section Space Spinach
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 25d
     Section Black Summer Bok Choy
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 45d
