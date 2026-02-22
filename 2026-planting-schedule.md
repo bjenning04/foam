@@ -21,6 +21,9 @@ gantt
     Section Bopak Bok Choy
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 50d
+    Section Allstar Gourmet Lettuce
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 28d
     Section Cherokee Lettuce
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 48d
