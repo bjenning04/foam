@@ -21,13 +21,16 @@ gantt
     Section Bopak Bok Choy
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 50d
+    Section Dragoon Lettuce
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 43d
+    Section Muir Lettuce
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 50d
     Section Calendula
         Sow: 2026-03-05, 14d
     Section Carrots
         Sow: 2026-03-05, 14d
-    Section Dragoon Lettuce
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 43d
     Section Cilantro
         Sow: 2026-03-19, 7d
     Section Dill
