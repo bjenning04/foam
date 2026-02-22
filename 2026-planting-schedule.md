@@ -12,6 +12,9 @@ gantt
     Section Easter Egg II Radishes
         Sow: 2026-02-19, 14d
         Grow: 2026-03-05, 30d
+    Section French Breakfast Radishes
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 21d
     Section Peas
         Sow: 2026-02-19, 14d
     Section Spinach
