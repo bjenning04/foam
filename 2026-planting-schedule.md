@@ -9,12 +9,18 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %m-%d
     Last Frost: vert, v1, 2026-04-02,
-    Section Easter Egg II Radishes
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 30d
     Section French Breakfast Radishes
         Sow: 2026-02-19, 14d
         Grow: 2026-03-05, 21d
+    Section Easter Egg II Radishes
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 30d
+    Section Space Spinach
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 25d
+    Section Bloomsdale Spinach
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 30d
     Section Little Marvel Petite Shelling Peas
         Sow: 2026-02-19, 14d
         Grow: 2026-03-05, 55d
@@ -24,12 +30,6 @@ gantt
     Section Sugar Ann Peas
         Sow: 2026-02-19, 14d
         Grow: 2026-03-05, 51d
-    Section Bloomsdale Spinach
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 30d
-    Section Space Spinach
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 25d
     Section Black Summer Bok Choy
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 45d
