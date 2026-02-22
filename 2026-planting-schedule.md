@@ -10,9 +10,7 @@ gantt
     axisFormat %m-%d
     Last Frost: vert, v1, 2026-04-02,
     Radishes: 2026-02-19, 14d
-    Shelling Peas: 2026-02-19, 14d
-    Snap Peas: 2026-02-19, 14d
-    Snow Peas: 2026-02-19, 14d
+    Peas: 2026-02-19, 14d
     Spinach: 2026-02-19, 14d
     Bok Choy: 2026-03-05, 14d
     Calendula: 2026-03-05, 14d
