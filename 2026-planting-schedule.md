@@ -9,16 +9,28 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %m-%d
     Last Frost: vert, v1, 2026-04-02,
-    Radishes: 2026-02-19, 14d
-    Peas: 2026-02-19, 14d
-    Spinach: 2026-02-19, 14d
-    Bok Choy: 2026-03-05, 14d
-    Calendula: 2026-03-05, 14d
-    Carrots: 2026-03-05, 14d
-    Lettuce: 2026-03-05, 14d
-    Cilantro: 2026-03-19, 7d
-    Dill: 2026-03-19, 7d
-    Alyssum: 2026-03-19, 7d
-    Nasturtium: 2026-04-12, 7d
-    Yarrow: 2026-04-16, 14d
+    Section Radishes
+        Sow: 2026-02-19, 14d
+    Section Peas
+        Sow: 2026-02-19, 14d
+    Section Spinach
+        Sow: 2026-02-19, 14d
+    Section Bok Choy
+        Sow: 2026-03-05, 14d
+    Section Calendula
+        Sow: 2026-03-05, 14d
+    Section Carrots
+        Sow: 2026-03-05, 14d
+    Section Lettuce
+        Sow: 2026-03-05, 14d
+    Section Cilantro
+        Sow: 2026-03-19, 7d
+    Section Dill
+        Sow: 2026-03-19, 7d
+    Section Alyssum
+        Sow: 2026-03-19, 7d
+    Section Nasturtium
+        Sow: 2026-04-12, 7d
+    Section Yarrow
+        Sow: 2026-04-16, 14d
 ```
