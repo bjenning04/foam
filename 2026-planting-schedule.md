@@ -48,8 +48,6 @@ gantt
     Section Muir Lettuce
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 50d
-    Section Calendula
-        Sow: 2026-03-05, 14d
     Section Bolero Carrots
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 75d
@@ -62,6 +60,8 @@ gantt
     Section Yellowstone Carrots
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 73d
+    Section Resina Calendula
+        Sow: 2026-03-05, 14d
     Section Cilantro
         Sow: 2026-03-19, 7d
     Section Dill
