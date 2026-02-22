@@ -21,6 +21,9 @@ gantt
     Section Bopak Bok Choy
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 50d
+    Section Cherokee Lettuce
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 48d
     Section Dragoon Lettuce
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 43d
