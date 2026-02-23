@@ -10,8 +10,8 @@ gantt
     axisFormat %m-%d
     Last Frost: vert, 2026-04-25, 0d
     Section French Breakfast Radishes
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 21d
+        Sow: r1, 2026-03-28, 2026-04-04
+        Grow: after r1, 21d
     Section Easter Egg II Radishes
         Sow: 2026-02-19, 14d
         Grow: 2026-03-05, 30d
