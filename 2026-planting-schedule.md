@@ -8,7 +8,15 @@ gantt
     title Planting & Harvesting Schedule
     dateFormat YYYY-MM-DD
     axisFormat %m-%d
-    Last Frost: milestone, m1, 2026-04-02, 0d
+
+    section Milestone
+    Project Deadline :milestone, m1, 2026-03-31, 0d
+    
+    section Tasks
+    Testing           :a3, after m1, 7d
+    Development       :a2, after a3, 10d
+    Design            :a1, after a2, 5d
+
     Last Frost: vert, lf, 2026-04-02, 0d
     Section French Breakfast Radishes
         Sow: sow, after lf-28d, 14d
