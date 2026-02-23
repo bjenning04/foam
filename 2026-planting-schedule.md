@@ -8,28 +8,28 @@ gantt
     title Planting & Harvesting Schedule
     dateFormat YYYY-MM-DD
     axisFormat %m-%d
-    Last Frost: vert, 2026-04-25, 0d
+    Last Frost: vert, 2026-04-02, 0d
     Section French Breakfast Radishes
-        Sow: r1, 2026-03-28, 2026-04-04
-        Grow: after r1, 21d
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 21d
     Section Easter Egg II Radishes
-        Sow: r2, 2026-03-28, 2026-04-04
-        Grow: after r2, 30d
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 30d
     Section Space Spinach
-        Sow: s1, 2026-03-28, 2026-04-04
-        Grow: after s1, 25d
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 25d
     Section Bloomsdale Spinach
-        Sow: s1, 2026-03-28, 2026-04-04
-        Grow: after s1, 30d
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 30d
     Section Sugar Ann Peas
-        Sow: p1, 2026-03-28, 2026-04-04
-        Grow: after p1, 51d
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 51d
     Section Little Marvel Petite Shelling Peas
-        Sow: p1, 2026-03-28, 2026-04-04
-        Grow: after p1, 55d
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 55d
     Section Oregon Sugar Pod II Peas
-        Sow: p1, 2026-03-28, 2026-04-04
-        Grow: after p1, 60d
+        Sow: 2026-02-19, 14d
+        Grow: 2026-03-05, 60d
     Section Black Summer Bok Choy
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 45d
@@ -49,17 +49,17 @@ gantt
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 50d
     Section White Satin Carrots
-        Sow: c1, 2026-03-28, 2026-04-11
-        Grow: after c1, 68d
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 68d
     Section Purple Haze Carrots
-        Sow: c1, 2026-03-28, 2026-04-11
-        Grow: after c1, 73d
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 73d
     Section Yellowstone Carrots
-        Sow: c1, 2026-03-28, 2026-04-11
-        Grow: after c1, 73d
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 73d
     Section Bolero Carrots
-        Sow: c1, 2026-03-28, 2026-04-11
-        Grow: after c1, 75d
+        Sow: 2026-03-05, 14d
+        Grow: 2026-03-19, 75d
     Section Resina Calendula
         Sow: 2026-03-05, 14d
     Section Cilantro
