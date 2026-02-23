@@ -13,8 +13,8 @@ gantt
         Sow: r1, 2026-03-28, 2026-04-04
         Grow: after r1, 21d
     Section Easter Egg II Radishes
-        Sow: r1, 2026-03-28, 2026-04-04
-        Grow: after r1, 30d
+        Sow: r2, 2026-03-28, 2026-04-04
+        Grow: after r2, 30d
     Section Space Spinach
         Sow: 2026-02-19, 14d
         Grow: 2026-03-05, 25d
@@ -49,17 +49,17 @@ gantt
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 50d
     Section White Satin Carrots
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 68d
+        Sow: c1, 2026-03-28, 2026-04-11
+        Grow: after c1, 68d
     Section Purple Haze Carrots
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 73d
+        Sow: c1, 2026-03-28, 2026-04-11
+        Grow: after c1, 73d
     Section Yellowstone Carrots
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 73d
+        Sow: c1, 2026-03-28, 2026-04-11
+        Grow: after c1, 73d
     Section Bolero Carrots
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 75d
+        Sow: c1, 2026-03-28, 2026-04-11
+        Grow: after c1, 75d
     Section Resina Calendula
         Sow: 2026-03-05, 14d
     Section Cilantro
