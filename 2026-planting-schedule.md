@@ -13,8 +13,8 @@ gantt
         Sow: r1, 2026-03-28, 2026-04-04
         Grow: after r1, 21d
     Section Easter Egg II Radishes
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 30d
+        Sow: r1, 2026-03-28, 2026-04-04
+        Grow: after r1, 30d
     Section Space Spinach
         Sow: 2026-02-19, 14d
         Grow: 2026-03-05, 25d
