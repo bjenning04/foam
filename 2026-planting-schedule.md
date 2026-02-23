@@ -16,20 +16,20 @@ gantt
         Sow: r2, 2026-03-28, 2026-04-04
         Grow: after r2, 30d
     Section Space Spinach
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 25d
+        Sow: s1, 2026-03-28, 2026-04-04
+        Grow: after s1, 25d
     Section Bloomsdale Spinach
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 30d
+        Sow: s1, 2026-03-28, 2026-04-04
+        Grow: after s1, 30d
     Section Sugar Ann Peas
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 51d
+        Sow: p1, 2026-03-28, 2026-04-04
+        Grow: after p1, 51d
     Section Little Marvel Petite Shelling Peas
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 55d
+        Sow: p1, 2026-03-28, 2026-04-04
+        Grow: after p1, 55d
     Section Oregon Sugar Pod II Peas
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 60d
+        Sow: p1, 2026-03-28, 2026-04-04
+        Grow: after p1, 60d
     Section Black Summer Bok Choy
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 45d
