@@ -8,7 +8,7 @@ gantt
     title Planting & Harvesting Schedule
     dateFormat YYYY-MM-DD
     axisFormat %m-%d
-    Last Frost: vert, lf, 2026-04-02, 1d
+    Last Frost: vert, lf, 2026-04-02, 0d
     Section French Breakfast Radishes
         Sow: sow, after lf-28d, 14d
         Grow: 2026-03-05, 21d
