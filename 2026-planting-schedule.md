@@ -1,3 +1,6 @@
+---
+tags: gardening, planting
+---
 # Planting Schedule
 
 ```mermaid
