@@ -17,4 +17,4 @@ tags: home-improvement
 - [ ] Replace front door
 - [ ] Replace sliding glass door
 - [ ] Install garage shelving
-- [x] Install bookshelves downstairs 
+- [x] Install bookshelves downstairs
