@@ -2,6 +2,7 @@
 tags: home-improvement
 ---
 # Home Improvement
+
 - [ ] Install shower in upstairs bathroom
 - [ ] Fix upstairs bathroom plumbing issues
 - [ ] Wash outside of house
