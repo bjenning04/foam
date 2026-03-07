@@ -17,12 +17,12 @@ gantt
     Sugar Ann Peas: 2026-03-05, 51d
     Little Marvel Petite Shelling Peas: 2026-03-05, 55d
     Oregon Sugar Pod II Peas: 2026-03-05, 60d
-    Section French Breakfast Radishes
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 21d
-    Section Easter Egg II Radishes
-        Sow: 2026-02-19, 14d
-        Grow: 2026-03-05, 30d
+    White Satin Carrots: 2026-03-07, 68d
+    Purple Haze Carrots: 2026-03-07, 73d
+    Yellowstone Carrots: 2026-03-07, 73d
+    Bolero Carrots: 2026-03-07, 75d
+    French Breakfast Radishes: 2026-03-07, 21d
+    Easter Egg II Radishes: 2026-03-07, 30d
     Section Black Summer Bok Choy
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 45d
@@ -41,18 +41,6 @@ gantt
     Section Muir Lettuce
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 50d
-    Section White Satin Carrots
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 68d
-    Section Purple Haze Carrots
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 73d
-    Section Yellowstone Carrots
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 73d
-    Section Bolero Carrots
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 75d
     Section Resina Calendula
         Sow: 2026-03-05, 14d
     Section Cilantro
