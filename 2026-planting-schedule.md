@@ -17,6 +17,10 @@ gantt
     Sugar Ann Peas: 2026-03-05, 51d
     Little Marvel Petite Shelling Peas: 2026-03-05, 55d
     Oregon Sugar Pod II Peas: 2026-03-05, 60d
+    Allstar Gourmet Lettuce: 2026-03-06, 28d
+    Dragoon Lettuce: 2026-03-06, 43d
+    Cherokee Lettuce: 2026-03-06, 48d
+    Muir Lettuce: 2026-03-06, 50d
     White Satin Carrots: 2026-03-07, 68d
     Purple Haze Carrots: 2026-03-07, 73d
     Yellowstone Carrots: 2026-03-07, 73d
@@ -27,18 +31,6 @@ gantt
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 45d
     Section Bopak Bok Choy
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 50d
-    Section Allstar Gourmet Lettuce
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 28d
-    Section Dragoon Lettuce
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 43d
-    Section Cherokee Lettuce
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 48d
-    Section Muir Lettuce
         Sow: 2026-03-05, 14d
         Grow: 2026-03-19, 50d
     Section Resina Calendula
