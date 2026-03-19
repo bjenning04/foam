@@ -26,5 +26,23 @@ Before implementing any of the following steps, ensure there are no stages that 
 Insert this stage immediately before the build steps you want to monitor.
 
 ```groovy
-
+stage('Start Network Capture') {
+    steps {
+        script {
+            sh """
+            echo "--- STARTING TCPDUMP SETUP ---"
+            
+            echo "1. Cleaning up old files..."
+            sudo /usr/bin/rm -f "${WORKSPACE}/full_build_capture.pcap" || true
+            sudo /usr/bin/rm -f "${WORKSPACE}/tcpdump_debug.log" || true
+            
+            echo "2. Launching tcpdump in background..."
+            JENKINS_NODE_COOKIE=dontKillMe
+            nohup sudo /usr/sbin/tcpdump -i any -w "${WORKSPACE}/full_build_capture.pcap" > "${WORKSPACE}/tcpdump_debug.log" 2>&1 & 
+            
+            echo "--- SETUP COMPLETE ---"
+            """
+        }
+    }
+}
 ```
