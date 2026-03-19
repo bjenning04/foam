@@ -72,8 +72,112 @@ post {
             echo "--- CLEANUP COMPLETE ---"
             """
         }
-        archiveArtifacts artifacts: '*.pcap, *.log, connect-android-dialer-app/build/reports/**/*', allowEmptyArchive: true
-        junit 'connect-android-dialer-app/build/test-results/**/*.xml'
+        // Expose the files so they can be downloaded from the Jenkins UI
+        archiveArtifacts artifacts: '*.pcap, *.log', allowEmptyArchive: true
     }
 }
 ```
+
+## Phase 3: Traffic Analysis
+
+Download the `full_build_capture.pcap` artifact from the Jenkins build to your local machine. Save the following bash script as `network_reqs.sh` in the same directory as the `.pcap` file. Update the `AGENT_IP` variable to match the internal IP address of the Jenkins node that ran the build.
+
+```bash
+#!/bin/bash
+
+# --- Configuration ---
+PCAP="full_build_capture.pcap"
+AGENT_IP="1.2.3.4"
+OUTPUT="firewall_requirements.csv"
+
+# --- Safety Checks ---
+if ! command -v tshark &> /dev/null; then
+    echo "Error: tshark is not installed or not in your PATH."
+    exit 1
+fi
+
+if [ ! -f "$PCAP" ]; then
+    echo "Error: Capture file '$PCAP' not found in this directory."
+    exit 1
+fi
+
+echo "Analyzing $PCAP for Agent $AGENT_IP..."
+echo "Target,Port,Protocol,Description" > "$OUTPUT"
+
+# --- 1. Extract HTTPS/TLS Traffic (Domains) ---
+echo "Extracting TLS Domains..."
+tshark -r "$PCAP" -Y "ip.src == $AGENT_IP and tls.handshake.type == 1" -T fields \
+-e tls.handshake.extensions_server_name -e tcp.dstport \
+| sort -u | grep . | while read -r domain port; do
+    echo "$domain,$port,TCP,HTTPS Domain" >> "$OUTPUT"
+done
+
+# --- 2. Extract TCP Traffic (Raw IPs) ---
+echo "Extracting TCP IPs and performing reverse DNS lookups..."
+# We filter out port 443 to avoid duplicating the domains we just grabbed above
+tshark -r "$PCAP" -Y "ip.src == $AGENT_IP and tcp.flags.syn == 1 and tcp.flags.ack == 0 and tcp.dstport != 443" -T fields \
+-e ip.dst -e tcp.dstport \
+| sort -u | grep . | while read -r ip port; do
+    
+    # Set a default description
+    desc="Custom TCP Service"
+    target="$ip"
+
+    # Check for known static IPs/Ports from your network
+    if [[ "$ip" == "146.235.253.206" ]]; then
+        desc="Tanium UEM Client"
+    elif [[ "$port" == "22" ]]; then
+        desc="Git SSH"
+    elif [[ "$port" == "80" ]]; then
+        desc="Plain HTTP"
+    else
+        # Attempt to reverse-resolve the IP to a hostname using the Mac's 'host' command
+        resolved_name=$(host "$ip" 2>/dev/null | awk '/domain name pointer/ {print $5}' | sed 's/\.$//')
+        if [[ -n "$resolved_name" ]]; then
+            target="$resolved_name ($ip)"
+            desc="Resolved Internal/CDN Host"
+        fi
+    fi
+    
+    echo "$target,$port,TCP,$desc" >> "$OUTPUT"
+done
+
+# --- 3. Extract UDP Traffic (Raw IPs) ---
+echo "Extracting UDP background traffic..."
+# Filter out port 53 to ignore standard DNS queries cluttering the list
+tshark -r "$PCAP" -Y "ip.src == $AGENT_IP and udp and udp.dstport != 53" -T fields \
+-e ip.dst -e udp.dstport \
+| sort -u | grep . | while read -r ip port; do
+    
+    desc="UDP Traffic"
+    target="$ip"
+
+    if [[ "$port" == "123" ]]; then
+        desc="NTP Time Sync"
+    elif [[ "$port" == "514" ]]; then
+        desc="Syslog Logging"
+    elif [[ "$port" == "137" ]]; then
+        desc="NetBIOS Name Service"
+    fi
+    
+    echo "$target,$port,UDP,$desc" >> "$OUTPUT"
+done
+
+# --- 4. Final Polish & Deduplication ---
+echo "Cleaning up output..."
+temp_file=$(mktemp)
+header=$(head -n 1 "$OUTPUT")
+# Sort the file starting from line 2 to deduplicate any overlaps perfectly
+tail -n +2 "$OUTPUT" | sort -u > "$temp_file"
+echo "$header" > "$OUTPUT"
+cat "$temp_file" >> "$OUTPUT"
+rm "$temp_file"
+
+echo "------------------------------------------------"
+echo "Success! Final requirements saved to: $OUTPUT"
+echo ""
+echo "Preview of $OUTPUT:"
+column -s, -t < "$OUTPUT" | head -n 15
+```
+
+Run the script. The resulting `firewall_requirements.csv` will contain a deduplicated list of domains, IPs, and ports formatted for a network security request.
