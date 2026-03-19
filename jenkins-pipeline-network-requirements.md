@@ -14,5 +14,9 @@ The Jenkins agent requires elevated privileges to run `tcpdump` and manage the r
 
     ```bash
     sudo su -
-echo "jenkins ALL=(ALL) NOPASSWD: /usr/sbin/tcpdump, /usr/bin/kill, /usr/bin/chown, /usr/bin/rm, /bin/rm, /usr/bin/pkill" > /etc/sudoers.d/jenkins-tcpdump
+    echo "jenkins ALL=(ALL) NOPASSWD: /usr/sbin/tcpdump, /usr/bin/kill, /usr/bin/chown, /usr/bin/rm, /bin/rm, /usr/bin/pkill" > /etc/sudoers.d/jenkins-tcpdump
     ```
+
+## Phase 2: Jenkinsfile Integration
+
+
