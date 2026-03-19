@@ -19,4 +19,12 @@ The Jenkins agent requires elevated privileges to run `tcpdump` and manage the r
 
 ## Phase 2: Jenkinsfile Integration
 
+Before implementing any of the following steps, ensure there are no stages that call `cleanWs()` or otherwise clean or delete all of the contents of the workspace.
 
+### The Setup Stage
+
+Insert this stage immediately before the build steps you want to monitor.
+
+```groovy
+
+```
