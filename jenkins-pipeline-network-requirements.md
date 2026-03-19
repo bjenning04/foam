@@ -46,3 +46,34 @@ stage('Start Network Capture') {
     }
 }
 ```
+
+### The Cleanup & Archiving Stage
+
+Add this to the `always` block within the pipeline's `post` section. It uses `pkill -f` to target the exact command string, preventing orphaned `tcpdump` processes from running indefinitely and filling up the server's disk.
+
+```groovy
+post {
+    always {
+        script {
+            sh """
+            echo "--- CLEANING UP TCPDUMP ---"
+            
+            # Target and kill the specific tcpdump command
+            sudo /usr/bin/pkill -f "/usr/sbin/tcpdump -i any -w ${WORKSPACE}/full_build_capture.pcap" || true
+            
+            # Give it a second to flush the final packets to the file
+            sleep 2
+            
+            # Change ownership from root back to jenkins
+            if [ -f "${WORKSPACE}/full_build_capture.pcap" ]; then
+                sudo /usr/bin/chown jenkins:jenkins "${WORKSPACE}/full_build_capture.pcap" || true
+            fi
+            
+            echo "--- CLEANUP COMPLETE ---"
+            """
+        }
+        archiveArtifacts artifacts: '*.pcap, *.log, connect-android-dialer-app/build/reports/**/*', allowEmptyArchive: true
+        junit 'connect-android-dialer-app/build/test-results/**/*.xml'
+    }
+}
+```
