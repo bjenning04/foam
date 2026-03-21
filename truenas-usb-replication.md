@@ -14,6 +14,8 @@ First, format the external USB drive so ZFS can write to it.
 - Click **Create**.
 
 ## 2. Take the Snapshot
+
+- Go to the **System** tab in the TrueNAS UI and click **Shell**.
 Drop into the TrueNAS Shell. Just like we did with your local apps, we need to freeze the dataset in time. Replace source-pool/data with the actual name of the dataset you are backing up.
 
 Bash
