@@ -34,7 +34,7 @@ gantt
     Section Resina Calendula
         Sow: 2026-03-05, 14d
     Section Cilantro
-        Grow: 2026-03-21, 7d
+        Grow: 2026-03-21, 55d
     Section Dill
         Sow: 2026-03-19, 7d
     Section Alyssum
