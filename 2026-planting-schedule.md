@@ -28,15 +28,13 @@ gantt
     French Breakfast Radishes: 2026-03-07, 21d
     Easter Egg II Radishes: 2026-03-07, 30d
     Section Black Summer Bok Choy
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 45d
+        Grow: 2026-03-21, 45d
     Section Bopak Bok Choy
-        Sow: 2026-03-05, 14d
-        Grow: 2026-03-19, 50d
+        Grow: 2026-03-21, 50d
     Section Resina Calendula
         Sow: 2026-03-05, 14d
     Section Cilantro
-        Sow: 2026-03-19, 7d
+        Grow: 2026-03-21, 7d
     Section Dill
         Sow: 2026-03-19, 7d
     Section Alyssum
