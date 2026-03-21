@@ -3,6 +3,8 @@ tags: truenas
 ---
 # TrueNAS USB Replication
 
+## 1. Create the Transport Pool
+
 First, format the external USB drive so ZFS can write to it.
 
 - Plug the USB drive(s).
