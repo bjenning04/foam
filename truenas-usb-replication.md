@@ -21,7 +21,7 @@ Go to the **System** tab in the TrueNAS UI and click **Shell**. Drop into the Tr
 sudo zfs snapshot -r source-pool/data@migration
 ```
 
-## 1. Start the Transfer
+## 3. Start the Transfer
 
 Fire up a persistent session so you can walk away or close the browser while it copies terabytes of data to the USB drive.
 
@@ -37,7 +37,7 @@ sudo zfs send -R source-pool/data@migration | sudo zfs recv -F usb-transport/dat
 
 *Note: You can safely detach by closing the browser tab. Just type `tmux attach` in a new shell later to check if the prompt has returned.*
 
-## 1. Safely Export (The Most Important Step)
+## 4. Safely Export (The Most Important Step)
 
 Once the shell prompt returns and the transfer is complete, you must unmount the drive cleanly so you don't corrupt the ZFS headers before hitting the road.
 
@@ -46,4 +46,4 @@ Once the shell prompt returns and the transfer is complete, you must unmount the
 - Click **Export/Disconnect**.
 - **CRITICAL**: Do not check the box that says "Destroy data on this pool." Just type the pool name to confirm and click Export.
 
-Once the pool disappears from the UI, you can physically unplug the drive
+Once the pool disappears from the UI, you can physically unplug the drive and transport it to its destination.
