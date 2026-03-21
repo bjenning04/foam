@@ -34,15 +34,16 @@ Once inside tmux, run the pipe command to copy the snapshot over to your externa
 ```bash
 sudo zfs send -R source-pool/data@migration | sudo zfs recv -F usb-transport/data
 ```
-Note: You can safely detach by closing the browser tab. Just type tmux attach in a new shell later to check if the prompt has returned.
 
-1. Safely Export (The Most Important Step)
+*Note: You can safely detach by closing the browser tab. Just type `tmux attach` in a new shell later to check if the prompt has returned.*
+
+## 1. Safely Export (The Most Important Step)
+
 Once the shell prompt returns and the transfer is complete, you must unmount the drive cleanly so you don't corrupt the ZFS headers before hitting the road.
 
-Go back to the Storage dashboard.
+- Go back to the **Storage** dashboard.
+- Locate the `usb-transport` pool.
+- Click **Export/Disconnect**.
+- **CRITICAL**: Do not check the box that says "Destroy data on this pool." Just type the pool name to confirm and click Export.
 
-Locate the usb-transport pool.
-
-Click Export/Disconnect.
-
-CRITICAL: Do not check the box that says "Destroy data on this pool." Just type the pool name to confirm and click Export.
+Once the pool disappears from the UI, you can physically unplug the drive
