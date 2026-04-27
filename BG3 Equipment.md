@@ -117,29 +117,39 @@
 
 ## Melee Weapons
 
-- Cruel Sting
+- Argument Solver
+- Artificial Leech
+- Drakethroat Glaive
 - Halberd of Vigilance (Karlach)
 - Incandescent Staff
-- Ironwood Club
-- Jorgoral's Greatsword
+- Justiciar's Scimitar (Szarkai)
 - Knife of the Undermountain King (Szarkai)
+- Moonlight Glaive
+- Myrkulite Scourge
 - Phalar Aluve
-- Shortsword of First Blood
-- Soulbreaker Greatsword
-- Sussur Dagger
-- Sword of Life Stealing (Szarkai)
-- The Blood of Lathander (Death Domain Shadowheart)
+- Punch-Drunk Bastard
+- Rat Bat
+- Ritual Dagger of Shar
+- Sword of Life Stealing
+- The Blood of Lathander (Shadowheart)
 - The Skinburster
 - The Spellsparkler (Gale)
-- Unseen Menace
-- Adamantine Shield (Death Domain Shadowheart)
-- Gloomstrand Shield
-- The Real Sparky Sparkswall (Gale)
+- Twist of Fortune
+- Very Heavy Greataxe
+- Absolute's Protector
+- Adamantine Shield (Shadowheart)
+- Iron-Banded Shield +1
+- Ironvine Shield
+- Justiciar's Greatshield
+- Sentinel Shield (Gale)
+- The Real Sparky Sparkswall
 
 ## Ranged Weapons
 
-- Bow of Awareness (Dealth Domain Shadowheart)
+- Bow of Awareness (Shadowheart)
 - Bow of the Banshee (Karlach)
 - Darkfire Shortbow (Gale)
-- Firestoker (Szarkai)
+- Firestoker
+- Hellfire Hand Crossbow (Szarkai)
+- Least Expected
 - Ne'er Misser (Szarkai)
