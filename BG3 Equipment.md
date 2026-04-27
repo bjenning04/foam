@@ -2,15 +2,17 @@
 
 ## Helmets
 
-- Circlet of Blasting (Gale)
-- Covert Cowl
-- Dark Justiciar Mask
-- Diadem of Arcane Synergy
-- Flawed Helldusk Helmet
-- Grymskull Helm
+- Browbeaten Circlet
+- Circle of Bones
+- Circlet of Blasting
+- Coldbrim Hat
+- Covert Cowl (Szarkai)
+- Dark Justiciar Helmet
+- Fistbreaker Helm (Gale)
 - Haste Helm (Karlach)
+- Helm of Arcane Acuity
 - Holy Lance Helm (Shadowheart)
-- Shadow of Menzoberranzan (Szarkai)
+- Shadow of Menzoberranzan
 
 ## Cloaks
 
