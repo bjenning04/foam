@@ -107,6 +107,11 @@
 - Necklace of Elemental Augmentation
 - Psychic Spark (Gale)
 - Sentient Amulet
+- Shar's Temptation
+- Spellcrux Amulet
+- Spineshudder Amulet
+- Strange Tentril Amulet
+- Surgeon's Subjugation Amulet
 - The Amulet of Lost Voices
 - The Ever-Seeing Eye
 
