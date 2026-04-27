@@ -17,20 +17,30 @@
 ## Cloaks
 
 - Cloak of Cunning Brume (Szarkai)
+- Cloak of Elemental Absorption (Karlach)
 - Cloak of Protection (Gale)
+- Derivation Cloak
+- Vivacious Cloak (Shadowheart)
 
 ## Body Attire
 
 - Adamantine Scale Mail (Karlach)
-- Luminous Armour (Dealth Domain Shadowheart)
+- Bided Time
+- Chain Mail +2
+- Dark Justiciar Half-Plate
+- Enraging Heart Garb
+- Icebite Robe
+- Luminous Armour (Shadowheart)
 - Penumbral Armour
+- Potent Robe
+- Psionic Ward Armour
 - Shadeclinger Armour
 - The Graceful Cloth (Szarkai)
 - The Protecty Sparkswall (Gale)
-- Yuan-ti Scale Mail
 
 ## Boots
 
+- Boots of Apparent Death
 - Boots of Elemental Momentum
 - Boots of Speed (Karlach)
 - Boots of Striding (Dealth Domain Shadowheart)
