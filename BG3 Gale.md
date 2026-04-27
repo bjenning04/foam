@@ -35,43 +35,31 @@ Proficiency Bonus: +4
 
 ## Conditions
 
-- Loviatar's Love
-- See Invisibility
 - BOOOAL's Benediction
-- Cat's Grace
 - Blessing of Selûne
 - Pixie Blessing
 
 ## Notable Features
 
-- Hellstalker
-- Night Walker
-- Corellon's Guiding Hand
-- Organ Rearranger
-- Shadow Blade
-- Shadow-Blinding
-- Risky Attack
-- Cunning Brume
-- Covert Critical
-- Cat's Grace
-- Nimble As a Cat
-- Malefic Excretion
-- Charlatan
-- Drow Weapon Training
-- Superior Darkvision
-- Fey Ancestry
-- Assassinate: Initiative
-- Assassinate: Ambush
-- Assassin's Alacrity
-- Bounty Hunter
-- Urban Tracker
-- Archery
-- Dread Ambusher
-- Extra Attack
+- Psychic Missiles
+- Sunwalker's Gift
+- High Spellcasting
+- Sparkswall Armour
+- Electric Veins
+- Mental Inhibition
+- Heightened Awareness
+- Shield Bash
+- Seldom Caught Unawares
+- Doom Lobber
+- Daredevil Proximity
+- Forbidden Knowledge
+- Sage
+- Civil Militia
+- Human Versatility
+- Sculpt Spells
+- Potent Cantrip
 - Toggle Non-Lethal Attacks
 - Opportunity Attack
-- Awakened
-- Volo's Ersatz Eye
-- Auntie Ethel's Boon
 - BOOOAL's Benediction
 - Illithid Persuasion
+
