@@ -41,53 +41,60 @@
 ## Boots
 
 - Boots of Apparent Death
+- Boots of Brilliance
 - Boots of Elemental Momentum
 - Boots of Speed (Karlach)
-- Boots of Striding (Dealth Domain Shadowheart)
+- Boots of Striding (Shadowheart)
 - Disintegrating Night Walkers (Szarkai)
 - Evasive Shoes (Gale)
-- Spiderstep Boots
-- Swiresy Shoes
-- The Speedy Lightfeet
 
 ## Gloves
 
 - Daredevil Gloves (Gale)
+- Dark Justiciar Gauntlets
+- Flawed Helldusk Gloves (Karlach)
 - Gloves of Archery (Szarkai)
-- Gloves of Belligerent Skies (Death Domain Shadowheart)
-- Gloves of Cinder and Sizzle
+- Gloves of Battlemage's Power
+- Gloves of Belligerent Skies
 - Gloves of Heroism
 - Gloves of Missile Snaring
-- Gloves of Power
-- Gloves of the Automaton (Karlach)
+- Gloves of the Automaton
 - Gloves of the Growling Underdog
-- Luminous Gloves
+- Hr'a'cknir Bracers
+- Ichorous Gloves
+- Luminous Gloves (Shadowheart)
+- Metallic Gloves
+- Poisoner's Gloves
+- Raven Gloves
 - Thermoarcanic Gloves
 
 ## Rings
 
 - 'Magic' Ring
-- Bracing Band (Karlach)
+- Bracing Band
+- Callous Glow Ring
 - Caustic Band (Szarkai)
-- Coruscation Ring (Death Domain Shadowheart)
-- Crusher's Ring
-- Explorer's Ring
+- Coruscation Ring (Shadowheart)
+- Crusher's Ring (Karlach)
+- Family Ring
 - Fetish of Callarduran Smoothhands
+- Firzu's Ring of Trading
 - Guiding Light
-- Mage's Friend (Gale)
+- Killer's Sweetheart
+- Mage's Friend
 - Ring of Arcane Synergy
-- Ring of Geniality
-- Ring of Jumping
-- Ring of Mental Inhibition
+- Ring of Exalted Marrow
+- Ring of Mental Inhibition (Gale)
 - Ring of Mind-Shielding (Karlach)
 - Ring of Self Immolation
-- Ring of Shadows
-- Ring of Twilight
 - Risky Ring (Szarkai)
+- Shadow Blade Ring
 - Shifting Corpus Ring
 - Snowburst Ring
 - Sunwalker's Gift (Gale)
-- The Sparkswall (Death Domain Shadowheart)
+- The Sparkswall (Shadowheart)
+- True Love's Caress
+- True Love's Embrace
 
 ## Amulets
 
