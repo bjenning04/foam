@@ -101,10 +101,8 @@
 - Aberration Hunters' Amulet
 - Amulet of Branding
 - Amulet of Misty Step (Szarkai)
-- Amulet of Restoration
 - Amulet of the Harpers (Shadowheart)
-- Frost Prince
-- Hammergrim Mist Amulet
+- Fireheart
 - Moondrop Pendant (Karlach)
 - Necklace of Elemental Augmentation
 - Psychic Spark (Gale)
