@@ -88,6 +88,7 @@
 - Darkvision
 - Detect Thoughts
 - Dimension Door
+- Disguise Self
 - Dominate Person
 - Enlarge/Reduce
 - Evard's Black Tentacles
