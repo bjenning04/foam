@@ -67,6 +67,7 @@
 
 - Animate Dead
 - Banishment
+- Bestow Curse
 - Blight
 - Blindness
 - Blink
@@ -94,6 +95,7 @@
 - False Life
 - Fear
 - Feather Fall
+- Feign Death
 - Fire Shield
 - Fireball
 - Flaming Sphere
