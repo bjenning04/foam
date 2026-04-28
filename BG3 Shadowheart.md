@@ -16,7 +16,7 @@
 
 ## Skills
 
-Proficiency Bonus: +4
+- Proficiency Bonus: +4
 
 - Athletics: +1
 - Acrobatics: +2
@@ -70,3 +70,47 @@ Proficiency Bonus: +4
 - Toggle Non-Lethal Attacks
 - Opportunity Attack
 - BOOOAL's Benediction
+
+## Spells
+
+- Dispel Evil and Good
+- Planar Binding
+- Greater Restoration
+- Insect Plague
+- Flame Strike
+- Mass Cure Wounds
+- Guardian of Faith
+- Freedom of Movement
+- Banishment
+- Beacon of Hope
+- Protection from Energy
+- Remove Curse
+- Glyph of Warding
+- Spirit Guardians
+- Daylight
+- Feign Death
+- Revivify
+- Speak with Dead
+- Bestow Curse
+- Mass Healing Word
+- Aid
+- Protection from Poison
+- Warding Bond
+- Lesser Restoration
+- Calm Emotions
+- Hold Person
+- Enhance Ability
+- Silence
+- Spiritual Weapon
+- Prayer of Healing
+- Shield of Faith
+- Protection from Evil and Good
+- Sanctuary
+- Bane
+- Command
+- Bless
+- Create or Destroy Water
+- Inflict Wounds
+- Guiding Bolt
+- Healing Word
+- Cure Wounds
