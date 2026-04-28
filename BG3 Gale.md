@@ -113,6 +113,7 @@
 - Ice Knife
 - Ice Storm
 - Invisibility
+- Knock
 - Lightning Bolt
 - Mage Armour
 - Magic Missile
