@@ -15,7 +15,7 @@
 
 ## Skills
 
-Proficiency Bonus: +4
+- Proficiency Bonus: +4
 
 - Athletics: -1
 - Acrobatics: +3
@@ -66,70 +66,79 @@ Proficiency Bonus: +4
 ## Spells
 
 - Animate Dead
-Banishment
-Blight
-Blindness
-Blink
-Blur
-Burning Hands
-Charm Person
-Chromatic Orb
-Cloud of Daggers
-Colour Spray
-Conjure Minor Elemental
-Counterspell
-Crown of Madness
-Darkness
-Darkvision
-Detect Thoughts
-Dimension Door
-Enlarge/Reduce
-Evard's Black Tentacles
-Expeditious Retreat
-False Life
-Fear
-Feather Fall
-Fire Shield
-Fireball
-Flaming Sphere
-Fog Cloud
-Gaseous Form
-Glyph of Warding
-Grant Flight
-Grease
-Greater Invisibility
-Gust of Wind
-Haste
-Hold Person
-Hypnotic Pattern
-Ice Knife
-Ice Storm
-Invisibility
-Lightning Bolt
-Mage Armour
-Magic Missile
-Magic Weapon
-Melf's Acid Arrow
-Mirror Image
-Misty Step
-Phantasmal Killer
-Polymorph
-Protection from Energy
-Protection from Evil and Good
-Ray of Enfeeblement
-Ray of Sickness
-Scorching Ray
-See Invisibility
-Shatter
-Shield
-Sleep
-Slow
-Sleet Storm
-Stinking Cloud
-Stoneskin
-Tasha's Hideous Laughter
-Thunderwave
-Vampiric Touch
-Wall of Fire
-Web
-Witch Bolt
+- Banishment
+- Blight
+- Blindness
+- Blink
+- Blur
+- Burning Hands
+- Charm Person
+- Chromatic Orb
+- Cloud of Daggers
+- Cloudkill
+- Colour Spray
+- Cone of Cold
+- Conjure Elemental
+- Conjure Minor Elemental
+- Counterspell
+- Crown of Madness
+- Darkness
+- Darkvision
+- Detect Thoughts
+- Dimension Door
+- Dominate Person
+- Enlarge/Reduce
+- Evard's Black Tentacles
+- Expeditious Retreat
+- False Life
+- Fear
+- Feather Fall
+- Fire Shield
+- Fireball
+- Flaming Sphere
+- Fog Cloud
+- Gaseous Form
+- Glyph of Warding
+- Grant Flight
+- Grease
+- Greater Invisibility
+- Gust of Wind
+- Haste
+- Hold Monster
+- Hold Person
+- Hypnotic Pattern
+- Ice Knife
+- Ice Storm
+- Invisibility
+- Lightning Bolt
+- Mage Armour
+- Magic Missile
+- Magic Weapon
+- Melf's Acid Arrow
+- Mirror Image
+- Misty Step
+- Phantasmal Killer
+- Planar Binding
+- Polymorph
+- Protection from Energy
+- Protection from Evil and Good
+- Ray of Enfeeblement
+- Ray of Sickness
+- Scorching Ray
+- See Invisibility
+- Seeming
+- Shatter
+- Shield
+- Sleep
+- Slow
+- Sleet Storm
+- Stinking Cloud
+- Stoneskin
+- Tasha's Hideous Laughter
+- Telekinesis
+- Thunderwave
+- Vampiric Touch
+- Wall of Fire
+- Wall of Stone
+- Web
+- Witch Bolt
