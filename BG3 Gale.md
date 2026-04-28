@@ -72,6 +72,7 @@
 - Blindness
 - Blink
 - Blur
+- Bone Chill
 - Burning Hands
 - Charm Person
 - Chromatic Orb
@@ -117,6 +118,7 @@
 - Invisibility
 - Knock
 - Lightning Bolt
+- Longstrider
 - Mage Armour
 - Magic Missile
 - Magic Weapon
@@ -136,6 +138,7 @@
 - Seeming
 - Shatter
 - Shield
+- Shocking Grasp
 - Sleep
 - Slow
 - Sleet Storm
