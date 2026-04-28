@@ -78,6 +78,7 @@
 - Cloudkill
 - Colour Spray
 - Cone of Cold
+- Confusion
 - Conjure Elemental
 - Conjure Minor Elemental
 - Counterspell
@@ -117,6 +118,7 @@
 - Melf's Acid Arrow
 - Mirror Image
 - Misty Step
+- Otiluke's Resilient Sphere
 - Phantasmal Killer
 - Planar Binding
 - Polymorph
