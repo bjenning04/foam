@@ -96,6 +96,7 @@
 - Fear
 - Feather Fall
 - Feign Death
+- Find Familiar
 - Fire Shield
 - Fireball
 - Flaming Sphere
