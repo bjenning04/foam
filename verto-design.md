@@ -32,13 +32,38 @@ classDiagram
     JsonRpcRequest <|-- LoginRequest
 
     class JsonRpcClient {
-        +
+        +SharedFlow~JsonRpcResponse~ messageFlow
+        +constructor(String socketUrl, String socketFallbackUrl, String ajaxUrl, String sessionId, JsonRpcObserver jsonRpcObserver)
+        +socketReady(): Boolean
+        +call(JsonRpcRequest request, Duration timeout): JsonRpcResponse
+        +login(String username, String password, Map~String, Any~ loginParams, Map~String, Any~ userVariables): JsonRpcResponse
+        +logout()
     }
-    class JsonRpcMessage
-    class JsonRpcObserver
-    class JsonRpcRequest
-    class JsonRpcResponse
-    class LoginRequest
+
+    class JsonRpcMessage {
+        +String jsonrpc = "2.0"
+        +Long id = ~auto-increment~
+        +abstract String method
+        +abstract Map~String, Any~ params
+    }
+
+    class JsonRpcObserver {
+        +onWebSocketConnect()
+        +onWebSocketLogin(Boolean)
+        +onWebSocketClose()
+    }
+
+    class JsonRpcRequest {
+
+    }
+
+    class JsonRpcResponse {
+
+    }
+
+    class LoginRequest {
+
+    }
 ```
 
 ### VertoClient Design
