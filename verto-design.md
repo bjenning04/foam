@@ -317,14 +317,11 @@ Each individual call dialog has a number of states that it can flow through as p
 
 ```mermaid
 stateDiagram
-    new --> requesting
     new --> ringing
     new --> recovering
     new --> answering
+    new --> requesting
     new --> hangup
-    new --> destroy
-
-    purge --> destroy
 
     requesting --> active
     requesting --> trying
@@ -354,6 +351,8 @@ stateDiagram
     held --> hangup
 
     hangup --> destroy
+    new --> destroy
+    purge --> destroy
 ```
 ![Verto Dialog State Flow](images/Verto-Dialog-State-Flow.drawio.png)
 
