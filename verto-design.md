@@ -20,6 +20,12 @@ The Voice application for each supported platform shall consume a custom Verto s
 This library shall allow generic JSON RPC 2.0 communication using either a websocket or AJAX request. It defines the generic data model for performing JSON RPC 2.0 communication, as well as ensuring a persistent websocket connection if a websocket URL is provided.
 
 ![JsonRpcClient Design](images/JsonRpcClient.drawio.png)
+```mermaid
+---
+displayMode: compact
+---
+
+```
 
 ### VertoClient Design
 
