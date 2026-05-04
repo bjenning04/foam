@@ -48,7 +48,7 @@ classDiagram
 
     class JsonRpcObserver {
         +onWebSocketConnect()
-        +onWebSocketLogin(Boolean)
+        +onWebSocketLogin(Boolean success)
         +onWebSocketClose()
     }
 
@@ -92,15 +92,162 @@ classDiagram
         +subscribe(channel, params)
         +unsubscribe(channel)
         +broadcast(channel, params)
-        +newCall(args, mediaConstraints: MediaStreamConstraintsBuilder.() -> Unit) Call
+        +newCall(args, mediaConstraints: MediaStreamConstraintsBuilder.() -> Unit): Call
+        +ring(callId)
+        +answer(callId, params)
+        +isAudioMuted(callId)
+        +muteAudio(callId, muted)
+        +isVideoMuted(callId)
+        +muteVideo(callId, muted)
+        +isOnHold(callId)
+        +hold(callId, onHold, params)
+        +transfer(callId, dest, params)
+        +replace(callId, replaceCallId, params)
+        +hangup(callId, params)
+        +dtmf(callId, digits)
+        +rtt(callId, code, chars)
+        +setMediaConstraints(callId, mediaConstraints: MediaStreamConstraintsBuilder.() -> Unit)
+        +switchCamera(callId: String, deviceId: String?)
+        +isSharingScreen(callId)
+        +shareScreen(callId, shared)
+        +message(from: String? = null, to: String, body: String)
+    }
+
+    class ConnectionState {
+        <<enumeration>>
+        Disconnected
+        Connecting
+        Connected
+    }
+
+    class AuthenticationState {
+        <<enumeration>>
+        Unauthenticated
+        Authenticated
+    }
+
+    class VertoObserver {
+        <<interface>>
+        +onWebSocketLogin(success: Boolean)
+        +onWebSocketClose()
+        +onMessage(dialog: Any?, message: Any?, params: Any?)
+        +onEvent(params: Map~String, Any~?, userData: Any?)
+        +onDialogState(dialog: Dialog)
+    }
+
+    class Dialog {
+        +vertoClient: VertoClient
+        +call: Call
+        +peerConnection: PeerConnection
+        +mediaConstraints: MediaStreamConstraintsBuilder.() -> Unit
+        +invite()
+        +ring()
+        +answer(params)
+        +isAudioMuted()
+        +muteAudio(muted)
+        +isVideoMuted()
+        +muteVideo(muted)
+        +isOnHold()
+        +hold(onHold, params)
+        +transfer(dest, params)
+        +replace(replaceCallId, params)
+        +hangup(params)
+        +dtmf(digits)
+        +rtt(code, chars)
+        +setMediaConstraints(mediaConstraints: MediaStreamConstraintsBuilder.() -> Unit)
+        +switchCamera(deviceId: String?)
+        +isSharingScreen()
+        +shareScreen(shared)
+        +message(to: String, body: String)
+    }
+
+    class Call {
+        +callId: String
+        +masterCallId: String
+        +direction: Direction
+        +state: State
+        +previousState: State
+        +callerIdName: String
+        +callerIdNumber: String
+        +calleeIdName: String
+        +calleeIdNumber: String
+        +calleePilotNumber: String
+        +dataServerName: String
+        +rtcStatsReport: RtcStatsReport`
+        +bssids: List~BSSIDRecord~
+        +startTime: Long
+        +endTime: Long
+    }
+
+    class BSSIDRecord {
+        bssid: String
+        changeTime: Long
+    }
+
+    class Direction {
+        <<enumeration>>
+        Inbound
+        Outbound
+    }
+
+    class State {
+        <<enumeration>>
+        New
+        Requesting
+        Recovering
+        Trying
+        Ringing
+        Answering
+        Active
+        Held
+        Early
+        Hangup
+        Destroy
+        Purge
     }
 ```
-![VertoClient Detailed Design](images/VertoClient.drawio.png)
 
 Both the VertoClient and associated Dialogs will make use of the below outlined internal JsonRpcRequest implementations for all necessary communication with mod_verto in FreeSwitch.
 
 ![Verto Internal Data Model](images/Verto-Internal-Data-Model.drawio.png)
+```mermaid
+classDiagram
+    JsonRpcRequest <|-- VertoBroadcastRequest
+    JsonRpcRequest <|-- VertoSubscribeRequest
+    JsonRpcRequest <|-- VertoUnsubscribeRequest
+    JsonRpcRequest <|-- VertoDialogRequest
+    VertoDialogRequest <|-- VertoInfoRequest
+    VertoDialogRequest <|-- VertoInviteRequest
+    VertoDialogRequest <|-- VertoAnswerRequest
+    VertoDialogRequest <|-- VertoAttachRequest
+    VertoDialogRequest <|-- VertoByeRequest
+    VertoDialogRequest <|-- VertoModifyRequest
+    VertoInfoRequest <|-- VertoDtmfRequest
+    VertoInfoRequest <|-- VertoRttRequest
+    VertoInfoRequest <|-- VertoMessageRequest
+    VertoModifyRequest <|-- VertoTransferRequest
+    VertoModifyRequest <|-- VertoReplaceRequest
+    VertoModifyRequest <|-- VertoHoldRequest
+    VertoModifyRequest <|-- VertoUnholdRequest
+    VertoModifyRequest <|-- VertoToggleHoldRequest
 
+    class VertoBroadcastRequest {
+        +method: String = "verto.broadcast"
+    }
+
+    class VertoSubscribeRequest {
+        +method: String = "verto.subscribe"
+    }
+
+    class VertoUnsubscribeRequest {
+        +method: String = "verto.unsubscribe"
+    }
+
+    class VertoDialogRequest {
+        +method: String
+        +dialog: Dialog?
+    }
+```
 Each individual call dialog has a number of states that it can flow through as part of a call workflow. Below is a state diagram detailing each state and its corresponding valid next states.
 
 ![Verto Dialog State Flow](images/Verto-Dialog-State-Flow.drawio.png)
