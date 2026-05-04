@@ -315,6 +315,17 @@ classDiagram
 
 Each individual call dialog has a number of states that it can flow through as part of a call workflow. Below is a state diagram detailing each state and its corresponding valid next states.
 
+```mermaid
+stateDiagram
+    new --> ringing
+    new --> recovering
+    new --> answering
+    new --> requesting
+    new --> hangup
+    new --> destroy
+    ringing --> hangup
+    ringing --> answering
+```
 ![Verto Dialog State Flow](images/Verto-Dialog-State-Flow.drawio.png)
 
 Below is a sequence diagram showing Verto signaling and call state for a basic scenario.
