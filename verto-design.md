@@ -323,6 +323,7 @@ stateDiagram
     new --> recovering
     recovering --> answering
     recovering --> hangup
+    new --> answering
     active --> hangup
     held --> hangup
     early --> hangup
