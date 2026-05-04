@@ -327,6 +327,7 @@ flowchart
     recovering --> answering
     new --> answering
     active <--> answering
+    ringing --> hangup
     recovering --> hangup
     active --> hangup
 ```
