@@ -321,11 +321,9 @@ stateDiagram
     new --> recovering
     new --> requesting
     requesting --> trying
-    active --> requesting
 
     trying --> early
 
-    answering --> active
     requesting --> active
     trying --> active
     early --> active
