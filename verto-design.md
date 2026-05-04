@@ -24,7 +24,21 @@ This library shall allow generic JSON RPC 2.0 communication using either a webso
 ---
 displayMode: compact
 ---
+classDiagram
+    JsonRpcClient --> JsonRpcObserver
+    JsonRpcClient --> JsonRpcMessage
+    JsonRpcMessage <|-- JsonRpcRequest
+    JsonRpcMessage <|-- JsonRpcResponse
+    JsonRpcRequest <|-- LoginRequest
 
+    class JsonRpcClient {
+        +
+    }
+    class JsonRpcMessage
+    class JsonRpcObserver
+    class JsonRpcRequest
+    class JsonRpcResponse
+    class LoginRequest
 ```
 
 ### VertoClient Design
