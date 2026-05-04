@@ -79,6 +79,15 @@ classDiagram
         +socketUrl: String?
         +socketFallbackUrl: String?
         +defaultMediaConstraints: MediaStreamConstraintsBuilder.() -> Unit
+        +iceServers: List~String~?
+        +sessionId: String = randomUUID()
+        +callbacks: VertoObserver = DefaultVertoObserver()
+        +rpcClient: JsonRpcClient
+        +dialogs: Map~String, Dialog~
+        +calls: StateFlow~List~Call~~
+        +connectionState: StateFlow~ConnectionState~
+        +authenticationState: StateFlow~AuthenticationState~
+        
     }
 ```
 ![VertoClient Detailed Design](images/VertoClient.drawio.png)
