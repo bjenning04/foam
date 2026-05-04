@@ -209,7 +209,6 @@ classDiagram
 
 Both the VertoClient and associated Dialogs will make use of the below outlined internal JsonRpcRequest implementations for all necessary communication with mod_verto in FreeSwitch.
 
-![Verto Internal Data Model](images/Verto-Internal-Data-Model.drawio.png)
 ```mermaid
 classDiagram
     JsonRpcRequest <|-- VertoBroadcastRequest
@@ -244,10 +243,76 @@ classDiagram
     }
 
     class VertoDialogRequest {
+        <<abstract>>
         +method: String
         +dialog: Dialog?
     }
+
+    class VertoInfoRequest {
+        <<abstract>>
+        +method: String = "verto.info"
+    }
+
+    class VertoInviteRequest {
+        +method: String = "verto.invite"
+        +sdp: String
+    }
+
+    class VertoAnswerRequest {
+        +method: String = "verto.answer"
+        +sdp: String
+    }
+
+    class VertoAttachRequest {
+        +method: String = "verto.attach"
+        +sdp: String
+    }
+
+    class VertoByeRequest {
+        +method: String = "verto.bye"
+    }
+
+    class VertoModifyRequest {
+        <<abstract>>
+        +method: String = "verto.modify"
+    }
+
+    class VertoDtmfRequest {
+        +digits: String
+    }
+
+    class VertoRttRequest {
+        +text: String
+    }
+
+    class VertoMessageRequest {
+        +to: String
+        +body: String
+    }
+
+    class VertoTransferRequest {
+        +action: String = "transfer"
+        +destination: String
+    }
+
+    class VertoReplaceRequest {
+        +action: String = "replace"
+        +replaceCallId: String
+    }
+
+    class VertoHoldRequest {
+        +action: String = "hold"
+    }
+
+    class VertoUnholdRequest {
+        +action: String = "unhold"
+    }
+
+    class VertoToggleHoldRequest {
+        +action: String = "toggleHold"
+    }
 ```
+
 Each individual call dialog has a number of states that it can flow through as part of a call workflow. Below is a state diagram detailing each state and its corresponding valid next states.
 
 ![Verto Dialog State Flow](images/Verto-Dialog-State-Flow.drawio.png)
