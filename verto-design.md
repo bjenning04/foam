@@ -317,13 +317,8 @@ Each individual call dialog has a number of states that it can flow through as p
 
 ```mermaid
 stateDiagram
-    new --> ringing
-    ringing --> answering
     ringing --> hangup
-    new --> recovering
-    recovering --> answering
     recovering --> hangup
-    new --> answering
     active --> hangup
     held --> hangup
     early --> hangup
