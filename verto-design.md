@@ -327,11 +327,10 @@ stateDiagram
     requesting --> active
     trying --> active
     early --> active
-    held --> active
 
     ringing --> answering
-    recovering --> answering
     new --> answering
+    recovering --> answering
     active --> answering
 
     active --> held
@@ -348,6 +347,8 @@ stateDiagram
     hangup --> destroy
     new --> destroy
     purge --> destroy
+
+    answering --> active
 ```
 ![Verto Dialog State Flow](images/Verto-Dialog-State-Flow.drawio.png)
 
