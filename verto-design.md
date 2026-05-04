@@ -321,7 +321,8 @@ stateDiagram
     new --> ringing
     new --> recovering
     new --> answering
-    
+    ringing --> answering
+    recovering --> answering
 
     requesting --> active
     requesting --> trying
@@ -329,11 +330,6 @@ stateDiagram
 
     trying --> active
     trying --> early
-    
-
-    ringing --> answering
-
-    recovering --> answering
 
     early --> active
 
