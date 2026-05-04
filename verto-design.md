@@ -340,16 +340,16 @@ stateDiagram
     new --> recovering
     trying --> early
 
-    ringing --> answering
-    recovering --> answering
-    new --> answering
-    active --> answering
-
     answering --> active
     requesting --> active
     trying --> active
     early --> active
     held --> active
+
+    ringing --> answering
+    recovering --> answering
+    new --> answering
+    active --> answering
 
     active --> held
 
