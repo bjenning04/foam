@@ -19,7 +19,6 @@ The Voice application for each supported platform shall consume a custom Verto s
 
 This library shall allow generic JSON RPC 2.0 communication using either a websocket or AJAX request. It defines the generic data model for performing JSON RPC 2.0 communication, as well as ensuring a persistent websocket connection if a websocket URL is provided.
 
-![JsonRpcClient Design](images/JsonRpcClient.drawio.png)
 ```mermaid
 ---
 displayMode: compact
@@ -54,23 +53,25 @@ classDiagram
     }
 
     class JsonRpcRequest {
-
+        +String method
+        +Map~String, Any~ params
+        +setSessionId(String sessionId)
     }
 
     class JsonRpcResponse {
-
+        +Map~String, Any~ result
+        +Map~String, Any~ error
     }
 
     class LoginRequest {
-
+        +String method = "login"
+        +constructor(String username, String password, Map~String, Any~ loginParams, Map~String, Any~ userVariables)
     }
 ```
 
 ### VertoClient Design
 
 This is the detailed design and service contract for the Verto signaling client. It includes all of the standard functions necessary for voice calling, including video and screen sharing. The VertoClient will track a list of Dialog objects, which are responsible for maintaining the link between individual calls to their respective WebRTC peer connections, and also for updating WebRTC tracks/media as necessary.
-
-**Note**: All public classes accessible by the consumer are highlighted in blue.
 
 ![VertoClient Detailed Design](images/VertoClient.drawio.png)
 
