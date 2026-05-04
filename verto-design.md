@@ -331,6 +331,28 @@ stateDiagram
     hangup
     destroy
 
+    active --> requesting
+    new --> requesting
+
+    requesting --> trying
+
+    new --> ringing
+    new --> recovering
+    trying --> early
+
+    answering --> active
+    requesting --> active
+    trying --> active
+    early --> active
+    held --> active
+
+    active --> held
+
+    ringing --> answering
+    recovering --> answering
+    new --> answering
+    active --> answering
+
     ringing --> hangup
     recovering --> hangup
     active --> hangup
