@@ -318,7 +318,7 @@ Each individual call dialog has a number of states that it can flow through as p
 ```mermaid
 stateDiagram
     new --> requesting
-    active --> requesting
+    
 
     requesting --> trying
 
@@ -327,6 +327,7 @@ stateDiagram
     trying --> early
 
     answering --> active
+    
     requesting --> active
     trying --> active
     early --> active
