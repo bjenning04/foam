@@ -340,6 +340,11 @@ stateDiagram
     new --> recovering
     trying --> early
 
+    ringing --> answering
+    recovering --> answering
+    new --> answering
+    active --> answering
+
     answering --> active
     requesting --> active
     trying --> active
@@ -347,11 +352,6 @@ stateDiagram
     held --> active
 
     active --> held
-
-    ringing --> answering
-    recovering --> answering
-    new --> answering
-    active --> answering
 
     ringing --> hangup
     recovering --> hangup
