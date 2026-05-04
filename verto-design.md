@@ -87,7 +87,12 @@ classDiagram
         +calls: StateFlow~List~Call~~
         +connectionState: StateFlow~ConnectionState~
         +authenticationState: StateFlow~AuthenticationState~
-        
+        +login(params)
+        +logout()
+        +subscribe(channel, params)
+        +unsubscribe(channel)
+        +broadcast(channel, params)
+        +newCall(args, mediaConstraints: MediaStreamConstraintsBuilder.() -> Unit) Call
     }
 ```
 ![VertoClient Detailed Design](images/VertoClient.drawio.png)
