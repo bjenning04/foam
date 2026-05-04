@@ -317,29 +317,19 @@ Each individual call dialog has a number of states that it can flow through as p
 
 ```mermaid
 stateDiagram
-    active --> requesting
-    new --> requesting
-    new --> ringing
-    new --> recovering
-    new --> answering
-    ringing --> answering
-    recovering --> answering
-
-    requesting --> active
-    requesting --> trying
-    
-
-    trying --> active
-    trying --> early
-
-    early --> active
-
-    active --> answering
-    active --> held
-
-    answering --> active
-
-    held --> active
+    new
+    purge
+    requesting
+    trying
+    early
+    ringing
+    recovering
+    early
+    active
+    answering
+    held
+    hangup
+    destroy
 
     ringing --> hangup
     recovering --> hangup
@@ -349,6 +339,7 @@ stateDiagram
     trying --> hangup
     requesting --> hangup
     new --> hangup
+
     hangup --> destroy
     new --> destroy
     purge --> destroy
