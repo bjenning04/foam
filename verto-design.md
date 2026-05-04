@@ -342,7 +342,6 @@ flowchart
     new --> destroy
     purge --> destroy
 ```
-![Verto Dialog State Flow](images/Verto-Dialog-State-Flow.drawio.png)
 
 Below is a sequence diagram showing Verto signaling and call state for a basic scenario.
 
