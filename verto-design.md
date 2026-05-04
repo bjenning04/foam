@@ -73,6 +73,14 @@ classDiagram
 
 This is the detailed design and service contract for the Verto signaling client. It includes all of the standard functions necessary for voice calling, including video and screen sharing. The VertoClient will track a list of Dialog objects, which are responsible for maintaining the link between individual calls to their respective WebRTC peer connections, and also for updating WebRTC tracks/media as necessary.
 
+```mermaid
+classDiagram
+    class VertoClient {
+        +socketUrl: String?
+        +socketFallbackUrl: String?
+        +defaultMediaConstraints: MediaStreamConstraintsBuilder.() -> Unit
+    }
+```
 ![VertoClient Detailed Design](images/VertoClient.drawio.png)
 
 Both the VertoClient and associated Dialogs will make use of the below outlined internal JsonRpcRequest implementations for all necessary communication with mod_verto in FreeSwitch.
