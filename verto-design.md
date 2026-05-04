@@ -15,8 +15,6 @@
 
 The Voice application for each supported platform shall consume a custom Verto signaling client built as a Kotlin Multiplatform library (verto-client). This verto-client library will in turn consume a custom JSON RPC client also built as a Kotlin Multiplatform library (jsonrpc-client) as well as a fork of the publicly available webrtc-kmp, which is a Kotlin Multiplatform wrapper for Google's standard WebRTC libraries (webrtc-android, webrtc-ios, etc.).
 
-![Verto High Level Design](images/Verto-High-Level.drawio.png)
-
 ### JsonRpcClient Design
 
 This library shall allow generic JSON RPC 2.0 communication using either a websocket or AJAX request. It defines the generic data model for performing JSON RPC 2.0 communication, as well as ensuring a persistent websocket connection if a websocket URL is provided.
