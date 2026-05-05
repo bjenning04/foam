@@ -345,4 +345,23 @@ flowchart
 
 Below is a sequence diagram showing Verto signaling and call state for a basic scenario.
 
-![Basic Call State Sequence](images/Basic-Call-State-Sequence.drawio.png)
+```mermaid
+sequenceDiagram
+    A --> A: new
+    A --> A: requesting
+    A ->> FreeSwitch: verto.invite
+    FreeSwitch ->> B: verto.invite
+    A --> A: trying
+    B --> B: new
+    B --> B: ringing
+    B --> B: answering
+    B ->> FreeSwitch: verto.answer
+    FreeSwitch ->> A: verto.answer
+    A --> A: active
+    A --> A: hangup
+    A ->> FreeSwitch: verto.bye
+    FreeSwitch ->> B: verto.bye
+    A --> A: destroy
+    B --> B: hangup
+    B --> B: destroy
+```
