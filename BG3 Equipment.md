@@ -2,9 +2,11 @@
 
 ## Helmets
 
+- Bonespike Helmet
 - Browbeaten Circlet
 - Circle of Bones
 - Circlet of Blasting
+- Circlet of Mental Anguish
 - Coldbrim Hat
 - Covert Cowl (Szarkai)
 - Dark Justiciar Helmet
