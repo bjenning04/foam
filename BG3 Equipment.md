@@ -160,32 +160,59 @@
 
 ## Melee Weapons
 
-- Argument Solver
+- Ambusher
 - Artificial Leech
+- Belm
+- Blade of Oppressed Souls
+- Breaching Pikestaff
+- Clown Hammer
+- Corpsegrinder
+- Despair of Athkatla
+- Dolor Amarus
 - Drakethroat Glaive
+- Foebreaker
 - Halberd of Vigilance (Karlach)
+- Hammer of the Just
+- Handmaidens Mace
 - Incandescent Staff
+- Infernal Mace
 - Justiciar's Scimitar (Szarkai)
+- Ketheric's Warhammer
 - Knife of the Undermountain King (Szarkai)
+- Markoheshkir
 - Moonlight Glaive
+- Murderous Cut
 - Myrkulite Scourge
+- Nature's Snare
+- Nyrulna
 - Phalar Aluve
 - Punch-Drunk Bastard
-- Rat Bat
-- Ritual Dagger of Shar
+- Ravengard's Sourger
+- Rhapsody
+- Selûne's Spear of Night
+- Staff of Cherished Necromancy
+- Staff of the Ram
+- Stillmaker
 - Sword of Life Stealing
+- Sword of the Emperor
+- Sylvan Scimitar
 - The Blood of Lathander (Shadowheart)
 - The Skinburster
 - The Spellsparkler (Gale)
+- Torch of Revocation
+- Trident of the Waves
 - Twist of Fortune
-- Very Heavy Greataxe
+- Woe
 - Absolute's Protector
 - Adamantine Shield (Shadowheart)
-- Iron-Banded Shield +1
 - Ironvine Shield
 - Justiciar's Greatshield
+- Ketheric's Shield
 - Sentinel Shield (Gale)
+- Shield of Devotion
+- Shield of Shielding
 - The Real Sparky Sparkswall
+- Viconia's Walking Fortress
 
 ## Ranged Weapons
 
