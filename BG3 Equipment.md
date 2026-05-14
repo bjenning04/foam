@@ -221,5 +221,8 @@
 - Darkfire Shortbow (Gale)
 - Firestoker
 - Hellfire Hand Crossbow (Szarkai)
+- Hellrider Longbow
 - Least Expected
 - Ne'er Misser (Szarkai)
+- The Dead Shot
+- The Long Arm of the Gur
