@@ -2,6 +2,7 @@
 
 - Lv 4 Rogue - Assassin
 - Lv 5 Ranger - Gloom Stalker
+- Lv 3 Fighter - Champion
 - Seldarine Drow
 - Charlatan
 
