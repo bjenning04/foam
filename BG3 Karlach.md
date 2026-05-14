@@ -70,7 +70,21 @@ Proficiency Bonus: +4
 - Great Weapon Master: All In
 - Land's Stride: Difficult Terrain
 - Brutal Critical
+- Aspect of the Beast: Elk
+- Relentless Rage
 - Toggle Non-Lethal Attacks
 - Opportunity Attack
 - BOOOAL's Benediction
 - Heart Ablaze
+
+## Equipment
+
+- Helmet: Bonespike Helmet
+- Cloak: Cindermoth Cloak
+- Armour: Bonespike Garb
+- Boots: Bonespike Boots
+- Gloves: Bonespike Gloves
+- Rings: Crusher's Ring, Ring of Regeneration
+- Amulet: Surgeon's Subjugation Amulet
+- Melee: Nyrulna
+- Ranged: Bow of the Banshee
