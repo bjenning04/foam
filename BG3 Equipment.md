@@ -50,26 +50,38 @@
 - Penumbral Armour
 - Potent Robe
 - Psionic Ward Armour
-- 
-- Shadeclinger Armour
+- Reaper's Embrace
+- Robe of the Weave
+- Sharpened Snare Cuirass
+- Shelter of Athkatla
 - The Graceful Cloth (Szarkai)
 - The Protecty Sparkswall (Gale)
+- Veil of the Morning
+- Viconia's Priestess Robe
 
 ## Boots
 
+- Bonespike Boots
 - Boots of Apparent Death
 - Boots of Brilliance
 - Boots of Elemental Momentum
+- Boots of Psionic Movement
 - Boots of Speed (Karlach)
 - Boots of Striding (Shadowheart)
+- Boots of Uninhibited Kushigo
 - Disintegrating Night Walkers (Szarkai)
 - Evasive Shoes (Gale)
+- Spaceshunt Boots
 
 ## Gloves
 
+- Bonespike Gloves
+- Braindrain Gloves
+- Cerebral Citadel Gloves
 - Daredevil Gloves (Gale)
 - Dark Justiciar Gauntlets
 - Flawed Helldusk Gloves (Karlach)
+- Gauntlets of the Warmaster
 - Gloves of Archery (Szarkai)
 - Gloves of Battlemage's Power
 - Gloves of Belligerent Skies
