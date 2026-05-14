@@ -36,14 +36,22 @@ Proficiency Bonus: +4
 - Loviatar's Love
 - See Invisibility
 - BOOOAL's Benediction
-- Cat's Grace
-- Blessing of Selûne
-- Pixie Blessing
+- Sweet Stone Features
+- Speak with Animals
+- Covert Critical
+- Steeped in Bliss
+- Aspect of the Elk
 
 ## Notable Features
 
-- Hellstalker
 - Night Walker
+- Improved Critical
+- Keen Attack
+- Exotic Material
+- Stealthy Critical
+- Risky Attack
+- Covert Critical
+- Blind Immunity
 - Corellon's Guiding Hand
 - Organ Rearranger
 - Shadow Blade
