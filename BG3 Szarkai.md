@@ -54,13 +54,6 @@ Proficiency Bonus: +4
 - Organ Rearranger
 - Shadow Blade
 - Corellon's Guiding Hand
-- Shadow-Blinding
-- Risky Attack
-- Cunning Brume
-- Covert Critical
-- Cat's Grace
-- Nimble As a Cat
-- Malefic Excretion
 - Charlatan
 - Drow Weapon Training
 - Superior Darkvision
@@ -73,10 +66,26 @@ Proficiency Bonus: +4
 - Archery
 - Dread Ambusher
 - Extra Attack
-- Toggle Non-Lethal Attacks
+- Two-Weapon Fighting
+- Improved Critical Hit
+- Non-Lethal Attacks
 - Opportunity Attack
-- Awakened
 - Volo's Ersatz Eye
 - Auntie Ethel's Boon
 - BOOOAL's Benediction
+- Awakened
+- The Tharchiate Codex: Blessing
 - Illithid Persuasion
+- Malefic Excretion
+
+## Equipment
+
+- Helmet: Covert Cowl
+- Cloak: Shade-Slayer Cloak
+- Armour: Armour of Agility
+- Boots: Disintegrating Night Walkers
+- Gloves: Gloves of Archery
+- Rings: Caustic Band, Risky Ring
+- Amulet: Amulet of Misty Step
+- Melee: Belm, Knife of the Undermountain King
+- Ranged: The Dead Shot
