@@ -6,7 +6,7 @@
 
 ## Abilities
 
-- STR 18
+- STR 20
 - DEX 14
 - CON 15
 - INT 8
@@ -17,7 +17,7 @@
 
 Proficiency Bonus: +4
 
-- Athletics: +8
+- Athletics: +9
 - Acrobatics: +2
 - Sleight of Hand: +2
 - Stealth: +2
