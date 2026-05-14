@@ -14,28 +14,43 @@
 - Haste Helm (Karlach)
 - Helm of Arcane Acuity
 - Holy Lance Helm (Shadowheart)
+- Hood of the Weave
+- Horns of the Berserker
+- Jannath's Hat
+- Mask of Soul Perception
+- Pyroquickness Hat
 - Shadow of Menzoberranzan
 
 ## Cloaks
 
+- Cindermoth Cloak
 - Cloak of Cunning Brume (Szarkai)
+- Cloak of Displacement
 - Cloak of Elemental Absorption (Karlach)
 - Cloak of Protection (Gale)
 - Derivation Cloak
+- Nymph Cloak
+- Shade-Slayer Cloak
 - Vivacious Cloak (Shadowheart)
 
 ## Body Attire
 
 - Adamantine Scale Mail (Karlach)
+- Armour of Agility
+- Armour of Devotion
+- Armour of the Sporekeeper
 - Bided Time
-- Chain Mail +2
+- Bonespike Garb
+- Cerebral Citadel Armour
 - Dark Justiciar Half-Plate
+- Elegant Studded Leather
 - Enraging Heart Garb
 - Icebite Robe
 - Luminous Armour (Shadowheart)
 - Penumbral Armour
 - Potent Robe
 - Psionic Ward Armour
+- 
 - Shadeclinger Armour
 - The Graceful Cloth (Szarkai)
 - The Protecty Sparkswall (Gale)
