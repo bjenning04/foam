@@ -51,10 +51,9 @@ Proficiency Bonus: +4
 - Stealthy Critical
 - Risky Attack
 - Covert Critical
-- Blind Immunity
-- Corellon's Guiding Hand
 - Organ Rearranger
 - Shadow Blade
+- Corellon's Guiding Hand
 - Shadow-Blinding
 - Risky Attack
 - Cunning Brume
