@@ -36,21 +36,25 @@ Proficiency Bonus: +4
 ## Conditions
 
 - BOOOAL's Benediction
-- Blessing of Selûne
-- Pixie Blessing
+- Githzerai Mind Barrier
+- Aspect of the Elk Aura
 
 ## Notable Features
 
-- Sentinel Weapon
-- Adroit Reflexes
-- Smooth Start
-- Writhing Dance
-- Magical Plate
-- Adamantine Backlash
-- Lesser Infernal Touch
-- Absorb Elements
-- Shelter
+- Flaming Shroud
+- Slabjaw Determination
+- Exoskeletal Endurance
+- Paralysing Critical
+- Fury In The Marrow
+- Combat Regeneration
+- Exoskeletal Reinforcement
+- Evasive Instinct
+- Refined Vaulting
+- Zephyr Connection
+- Veil of the Wind
+- Nyrulna: Glowing
 - Blood-Curdling Emission
+- Unstable Blood
 - Outlander
 - Unarmoured Defence
 - Darkvision
