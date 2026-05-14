@@ -31,7 +31,7 @@ Proficiency Bonus: +4
 - Medicine: +1
 - Perception: +5
 - Survival: +5
-- Intimidation: +4
+- Intimidation: +6
 
 ## Conditions
 
