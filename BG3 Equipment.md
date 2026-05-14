@@ -106,17 +106,24 @@
 - Caustic Band (Szarkai)
 - Coruscation Ring (Shadowheart)
 - Crusher's Ring (Karlach)
+- Crypt Lord Ring
+- Djinni Ring
+- Eversight Ring
 - Family Ring
 - Fetish of Callarduran Smoothhands
 - Firzu's Ring of Trading
 - Guiding Light
+- Keepsake Ring
 - Killer's Sweetheart
 - Mage's Friend
 - Ring of Arcane Synergy
+- Ring of Blink
 - Ring of Exalted Marrow
 - Ring of Mental Inhibition (Gale)
 - Ring of Mind-Shielding (Karlach)
+- Ring of Regeneration
 - Ring of Self Immolation
+- Ring of Truthfulness
 - Risky Ring (Szarkai)
 - Shadow Blade Ring
 - Shifting Corpus Ring
