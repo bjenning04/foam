@@ -91,15 +91,16 @@
 - Gloves of the Growling Underdog
 - Hr'a'cknir Bracers
 - Ichorous Gloves
+- Knock Knuckle Gloves
 - Luminous Gloves (Shadowheart)
-- Metallic Gloves
 - Poisoner's Gloves
+- Quickspell Gloves
 - Raven Gloves
-- Thermoarcanic Gloves
+- Stalker Gloves
+- The Reviving Hands
 
 ## Rings
 
-- 'Magic' Ring
 - Bracing Band
 - Callous Glow Ring
 - Caustic Band (Szarkai)
