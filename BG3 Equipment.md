@@ -150,6 +150,7 @@
 - Psychic Spark (Gale)
 - Sentient Amulet
 - Shar's Temptation
+- Spell Savant Amulet
 - Spellcrux Amulet
 - Spineshudder Amulet
 - Strange Tentril Amulet
