@@ -136,10 +136,15 @@
 ## Amulets
 
 - Aberration Hunters' Amulet
+- Absolute Confidence Amulet
 - Amulet of Branding
 - Amulet of Misty Step (Szarkai)
+- Amulet of Restoration
+- Amulet of the Devout
 - Amulet of the Harpers (Shadowheart)
+- Chancer's Carcanet
 - Fireheart
+- Khalid's Gift
 - Moondrop Pendant (Karlach)
 - Necklace of Elemental Augmentation
 - Psychic Spark (Gale)
