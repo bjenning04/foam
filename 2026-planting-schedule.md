@@ -29,13 +29,5 @@ gantt
     Easter Egg II Radishes: 2026-03-07, 30d
     Black Summer Bok Choy: 2026-03-21, 45d
     Bopak Bok Choy: 2026-03-21, 50d
-    Cilantro: 2026-03-21, 55d
-    Dill: 2026-03-21, 45d
-    Alyssum: 2026-03-21, 60d
-    Section Resina Calendula
-        Sow: 2026-03-05, 14d
-    Section Nasturtium
-        Sow: 2026-04-12, 7d
-    Section Yarrow
-        Sow: 2026-04-16, 14d
+    Sweet Potatoes: 2026-06-07, 90d
 ```
