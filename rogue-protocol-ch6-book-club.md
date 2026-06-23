@@ -5,6 +5,9 @@ tags: book-club, rogue-protocol, martha-wells
 
 ## Chapter 6
 
+> "I hate caring about stuff. But apparently once you start, you can't just stop." \
+> — Murderbot
+
 ### The Tactical Retreat
 
 The chapter opens with high tension. Murderbot is utilizing its full tactical processing power to maneuver the assessment team to safety through the facility. It hacks the lift system to make their pod invisible to the network, simultaneously deploying a drone to scout for combat bot ambushes. Despite the immediate threat, Murderbot is also managing the humans' psychological state by sealing and code-locking hatches—an action it admits is functionally useless against combat bots, but necessary to make the humans feel secure.

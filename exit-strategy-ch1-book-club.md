@@ -6,8 +6,8 @@ tags: book-club, exit-strategy, martha-wells
 
 ## Chapter 1
 
-"The upside was paranoid attention to detail. The downside was also paranoid attention to detail."
-— Murderbot
+> "The upside was paranoid attention to detail. The downside was also paranoid attention to detail." \
+> — Murderbot
 
 ### The Intercepted Arrival
 
