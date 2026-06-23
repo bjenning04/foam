@@ -6,6 +6,9 @@ tags: book-club, exit-strategy, martha-wells
 
 ## Chapter 1
 
+"The upside was paranoid attention to detail. The downside was also paranoid attention to detail."
+— Murderbot
+
 ### The Intercepted Arrival
 
 The chapter opens with Murderbot returning to HaveRatton Station aboard its transport, Ship. Its paranoia proves justified when the Port Authority diverts Ship toward a dock where a heavily armed Palisade security team is waiting. Murderbot correctly deduces the corporate mercenaries are hunting for a rogue SecUnit and immediately begins calculating a bypass.
